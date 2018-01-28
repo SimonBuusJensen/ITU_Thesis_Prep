@@ -1,0 +1,222 @@
+/home/simon/anaconda2/bin/python /opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/pydevd.py --multiproc --qt-support --client 127.0.0.1 --port 35633 --file /home/simon/PycharmProjects/CNN-ThesisProj/main.py cullpdb+profile_6133.npy
+warning: Debugger speedups using cython not found. Run '"/home/simon/anaconda2/bin/python" "/opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/setup_cython.py" build_ext --inplace' to build.
+pydev debugger: process 6861 is connecting
+
+Connected to pydev debugger (build 171.4694.38)
+('data shape: ', (6133, 700, 57))
+('ss-reduced data set shape: ', (6133, 700, 44), (6133, 700, 4))
+('training data shape: ', (5000, 700, 44), (5000, 700, 4))
+('test data shape: ', (600, 700, 44), (600, 700, 4))
+('test data shape: ', (533, 700, 44), (533, 700, 4))
+Here!
+Building model...
+2017-07-09 15:43:54.878716: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 15:43:54.878738: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 15:43:54.878746: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 15:43:54.878752: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 15:43:54.878759: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Shuffling train data...
+Batch: 10/156. train loss: 1.1328, train accuracy: 0.1749
+Batch: 1/1. test loss: 1.1306, test accuracy: 0.1897
+Batch: 20/156. train loss: 0.8542, train accuracy: 0.3562
+Batch: 1/1. test loss: 0.8177, test accuracy: 0.3686
+Batch: 30/156. train loss: 0.5938, train accuracy: 0.4381
+Batch: 1/1. test loss: 0.5622, test accuracy: 0.4353
+Batch: 40/156. train loss: 0.4929, train accuracy: 0.4481
+Batch: 1/1. test loss: 0.4129, test accuracy: 0.4560
+Batch: 50/156. train loss: 0.4295, train accuracy: 0.5386
+Batch: 1/1. test loss: 0.3881, test accuracy: 0.4705
+Batch: 60/156. train loss: 0.3083, train accuracy: 0.6113
+Batch: 1/1. test loss: 0.3676, test accuracy: 0.5320
+Batch: 70/156. train loss: 0.2503, train accuracy: 0.5653
+Batch: 1/1. test loss: 0.3152, test accuracy: 0.5701
+Batch: 80/156. train loss: 0.2748, train accuracy: 0.6296
+Batch: 1/1. test loss: 0.2839, test accuracy: 0.6476
+Batch: 90/156. train loss: 0.2556, train accuracy: 0.6951
+Batch: 1/1. test loss: 0.2883, test accuracy: 0.6358
+Batch: 100/156. train loss: 0.2261, train accuracy: 0.6813
+Batch: 1/1. test loss: 0.2937, test accuracy: 0.6428
+Batch: 110/156. train loss: 0.2434, train accuracy: 0.6876
+Batch: 1/1. test loss: 0.2627, test accuracy: 0.6695
+Batch: 120/156. train loss: 0.2757, train accuracy: 0.6853
+Batch: 1/1. test loss: 0.2502, test accuracy: 0.6730
+Batch: 130/156. train loss: 0.1913, train accuracy: 0.7000
+Batch: 1/1. test loss: 0.2582, test accuracy: 0.6903
+Batch: 140/156. train loss: 0.2198, train accuracy: 0.7195
+Batch: 1/1. test loss: 0.2623, test accuracy: 0.6942
+Batch: 150/156. train loss: 0.1920, train accuracy: 0.7155
+Batch: 1/1. test loss: 0.2090, test accuracy: 0.6981
+Epoch: 0. Epoch loss: 66.3696
+Shuffling train data...
+Batch: 10/156. train loss: 0.2439, train accuracy: 0.7179
+Batch: 1/1. test loss: 0.2141, test accuracy: 0.6906
+Batch: 20/156. train loss: 0.2603, train accuracy: 0.7160
+Batch: 1/1. test loss: 0.2325, test accuracy: 0.7195
+Batch: 30/156. train loss: 0.1698, train accuracy: 0.7146
+Batch: 1/1. test loss: 0.1775, test accuracy: 0.7139
+Batch: 40/156. train loss: 0.1999, train accuracy: 0.7057
+Batch: 1/1. test loss: 0.2439, test accuracy: 0.7110
+Batch: 50/156. train loss: 0.1920, train accuracy: 0.7213
+Batch: 1/1. test loss: 0.2165, test accuracy: 0.7223
+Batch: 60/156. train loss: 0.2191, train accuracy: 0.7130
+Batch: 1/1. test loss: 0.1937, test accuracy: 0.7315
+Batch: 70/156. train loss: 0.2051, train accuracy: 0.7180
+Batch: 1/1. test loss: 0.2107, test accuracy: 0.7227
+Batch: 80/156. train loss: 0.2174, train accuracy: 0.7193
+Batch: 1/1. test loss: 0.1846, test accuracy: 0.7280
+Batch: 90/156. train loss: 0.2133, train accuracy: 0.7101
+Batch: 1/1. test loss: 0.2211, test accuracy: 0.7444
+Batch: 100/156. train loss: 0.2012, train accuracy: 0.7394
+Batch: 1/1. test loss: 0.1890, test accuracy: 0.7305
+Batch: 110/156. train loss: 0.2225, train accuracy: 0.7393
+Batch: 1/1. test loss: 0.2142, test accuracy: 0.7349
+Batch: 120/156. train loss: 0.1982, train accuracy: 0.7423
+Batch: 1/1. test loss: 0.1920, test accuracy: 0.7374
+Batch: 130/156. train loss: 0.1457, train accuracy: 0.7408
+Batch: 1/1. test loss: 0.2419, test accuracy: 0.7278
+Batch: 140/156. train loss: 0.2032, train accuracy: 0.7273
+Batch: 1/1. test loss: 0.1959, test accuracy: 0.7422
+Batch: 150/156. train loss: 0.2030, train accuracy: 0.7272
+Batch: 1/1. test loss: 0.1823, test accuracy: 0.7387
+Epoch: 1. Epoch loss: 31.1304
+Shuffling train data...
+Batch: 10/156. train loss: 0.1795, train accuracy: 0.7522
+Batch: 1/1. test loss: 0.2160, test accuracy: 0.7463
+Batch: 20/156. train loss: 0.2003, train accuracy: 0.7483
+Batch: 1/1. test loss: 0.1502, test accuracy: 0.7684
+Batch: 30/156. train loss: 0.1835, train accuracy: 0.7118
+Batch: 1/1. test loss: 0.1678, test accuracy: 0.7356
+Batch: 40/156. train loss: 0.1707, train accuracy: 0.7532
+Batch: 1/1. test loss: 0.1933, test accuracy: 0.7477
+Batch: 50/156. train loss: 0.2054, train accuracy: 0.7635
+Batch: 1/1. test loss: 0.1907, test accuracy: 0.7580
+Batch: 60/156. train loss: 0.1570, train accuracy: 0.7780
+Batch: 1/1. test loss: 0.2312, test accuracy: 0.7358
+Batch: 70/156. train loss: 0.1848, train accuracy: 0.7491
+Batch: 1/1. test loss: 0.1982, test accuracy: 0.7383
+Batch: 80/156. train loss: 0.1794, train accuracy: 0.7657
+Batch: 1/1. test loss: 0.1627, test accuracy: 0.7641
+Batch: 90/156. train loss: 0.1663, train accuracy: 0.7706
+Batch: 1/1. test loss: 0.1682, test accuracy: 0.7301
+Batch: 100/156. train loss: 0.1755, train accuracy: 0.7508
+Batch: 1/1. test loss: 0.2144, test accuracy: 0.7515
+Batch: 110/156. train loss: 0.1749, train accuracy: 0.7335
+Batch: 1/1. test loss: 0.1820, test accuracy: 0.7663
+Batch: 120/156. train loss: 0.1519, train accuracy: 0.7786
+Batch: 1/1. test loss: 0.2003, test accuracy: 0.7631
+Batch: 130/156. train loss: 0.1761, train accuracy: 0.7692
+Batch: 1/1. test loss: 0.1878, test accuracy: 0.7608
+Batch: 140/156. train loss: 0.1846, train accuracy: 0.7628
+Batch: 1/1. test loss: 0.2359, test accuracy: 0.7411
+Batch: 150/156. train loss: 0.2272, train accuracy: 0.7702
+Batch: 1/1. test loss: 0.1445, test accuracy: 0.7619
+Epoch: 2. Epoch loss: 28.2959
+Shuffling train data...
+Batch: 10/156. train loss: 0.1607, train accuracy: 0.7698
+Batch: 1/1. test loss: 0.1796, test accuracy: 0.7654
+Batch: 20/156. train loss: 0.1807, train accuracy: 0.7539
+Batch: 1/1. test loss: 0.2087, test accuracy: 0.7636
+Batch: 30/156. train loss: 0.2203, train accuracy: 0.7445
+Batch: 1/1. test loss: 0.2021, test accuracy: 0.7647
+Batch: 40/156. train loss: 0.1913, train accuracy: 0.7575
+Batch: 1/1. test loss: 0.1591, test accuracy: 0.7635
+Batch: 50/156. train loss: 0.1488, train accuracy: 0.7895
+Batch: 1/1. test loss: 0.2040, test accuracy: 0.7636
+Batch: 60/156. train loss: 0.1724, train accuracy: 0.7527
+Batch: 1/1. test loss: 0.2069, test accuracy: 0.7429
+Batch: 70/156. train loss: 0.1592, train accuracy: 0.7683
+Batch: 1/1. test loss: 0.1883, test accuracy: 0.7666
+Batch: 80/156. train loss: 0.2131, train accuracy: 0.7471
+Batch: 1/1. test loss: 0.1396, test accuracy: 0.7649
+Batch: 90/156. train loss: 0.1925, train accuracy: 0.7679
+Batch: 1/1. test loss: 0.1492, test accuracy: 0.7854
+Batch: 100/156. train loss: 0.1809, train accuracy: 0.7687
+Batch: 1/1. test loss: 0.1637, test accuracy: 0.7858
+Batch: 110/156. train loss: 0.1884, train accuracy: 0.7688
+Batch: 1/1. test loss: 0.1748, test accuracy: 0.7673
+Batch: 120/156. train loss: 0.1811, train accuracy: 0.7675
+Batch: 1/1. test loss: 0.1629, test accuracy: 0.7645
+Batch: 130/156. train loss: 0.1628, train accuracy: 0.7688
+Batch: 1/1. test loss: 0.1815, test accuracy: 0.7530
+Batch: 140/156. train loss: 0.1429, train accuracy: 0.7713
+Batch: 1/1. test loss: 0.2006, test accuracy: 0.7685
+Batch: 150/156. train loss: 0.1342, train accuracy: 0.7904
+Batch: 1/1. test loss: 0.1446, test accuracy: 0.7833
+Epoch: 3. Epoch loss: 26.8339
+Shuffling train data...
+Batch: 10/156. train loss: 0.2202, train accuracy: 0.7447
+Batch: 1/1. test loss: 0.1559, test accuracy: 0.8040
+Batch: 20/156. train loss: 0.1705, train accuracy: 0.7865
+Batch: 1/1. test loss: 0.1830, test accuracy: 0.7735
+Batch: 30/156. train loss: 0.1998, train accuracy: 0.7525
+Batch: 1/1. test loss: 0.1612, test accuracy: 0.7744
+Batch: 40/156. train loss: 0.1393, train accuracy: 0.7645
+Batch: 1/1. test loss: 0.2128, test accuracy: 0.7512
+Batch: 50/156. train loss: 0.1971, train accuracy: 0.7719
+Batch: 1/1. test loss: 0.1667, test accuracy: 0.7642
+Batch: 60/156. train loss: 0.1791, train accuracy: 0.7767
+Batch: 1/1. test loss: 0.1398, test accuracy: 0.7921
+Batch: 70/156. train loss: 0.1677, train accuracy: 0.7683
+Batch: 1/1. test loss: 0.1420, test accuracy: 0.7865
+Batch: 80/156. train loss: 0.1686, train accuracy: 0.7722
+Batch: 1/1. test loss: 0.1436, test accuracy: 0.7847
+Batch: 90/156. train loss: 0.1804, train accuracy: 0.7579
+Batch: 1/1. test loss: 0.1688, test accuracy: 0.7698
+Batch: 100/156. train loss: 0.1658, train accuracy: 0.7694
+Batch: 1/1. test loss: 0.1404, test accuracy: 0.7912
+Batch: 110/156. train loss: 0.1589, train accuracy: 0.7798
+Batch: 1/1. test loss: 0.1538, test accuracy: 0.7912
+Batch: 120/156. train loss: 0.1666, train accuracy: 0.7716
+Batch: 1/1. test loss: 0.1561, test accuracy: 0.7815
+Batch: 130/156. train loss: 0.1388, train accuracy: 0.8116
+Batch: 1/1. test loss: 0.1714, test accuracy: 0.7749
+Batch: 140/156. train loss: 0.1613, train accuracy: 0.7542
+Batch: 1/1. test loss: 0.1765, test accuracy: 0.7625
+Batch: 150/156. train loss: 0.1648, train accuracy: 0.7599
+Batch: 1/1. test loss: 0.1877, test accuracy: 0.7609
+Epoch: 4. Epoch loss: 25.8906
+Shuffling train data...
+Batch: 10/156. train loss: 0.1562, train accuracy: 0.7911
+Batch: 1/1. test loss: 0.1639, test accuracy: 0.7790
+Batch: 20/156. train loss: 0.1844, train accuracy: 0.7647
+Batch: 1/1. test loss: 0.1746, test accuracy: 0.7786
+Batch: 30/156. train loss: 0.1645, train accuracy: 0.7847
+Batch: 1/1. test loss: 0.1614, test accuracy: 0.7668
+Batch: 40/156. train loss: 0.1820, train accuracy: 0.7695
+Batch: 1/1. test loss: 0.1584, test accuracy: 0.7814
+Batch: 50/156. train loss: 0.1585, train accuracy: 0.7806
+Batch: 1/1. test loss: 0.1518, test accuracy: 0.7633
+Batch: 60/156. train loss: 0.1828, train accuracy: 0.7734
+Batch: 1/1. test loss: 0.1616, test accuracy: 0.7945
+Batch: 70/156. train loss: 0.1768, train accuracy: 0.7792
+Batch: 1/1. test loss: 0.1718, test accuracy: 0.7751
+Batch: 80/156. train loss: 0.1117, train accuracy: 0.7978
+Batch: 1/1. test loss: 0.1536, test accuracy: 0.7797
+Batch: 90/156. train loss: 0.1654, train accuracy: 0.7815
+Batch: 1/1. test loss: 0.2214, test accuracy: 0.7663
+Batch: 100/156. train loss: 0.1585, train accuracy: 0.7752
+Batch: 1/1. test loss: 0.1756, test accuracy: 0.7620
+Batch: 110/156. train loss: 0.1723, train accuracy: 0.7807
+Batch: 1/1. test loss: 0.1634, test accuracy: 0.7754
+Batch: 120/156. train loss: 0.1806, train accuracy: 0.7693
+Batch: 1/1. test loss: 0.1435, test accuracy: 0.7789
+Batch: 130/156. train loss: 0.1787, train accuracy: 0.7845
+Batch: 1/1. test loss: 0.1668, test accuracy: 0.7869
+Traceback (most recent call last):
+  File "/opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/pydevd.py", line 1591, in <module>
+    globals = debugger.run(setup['file'], None, None, is_module)
+  File "/opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/pydevd.py", line 1018, in run
+    pydev_imports.execfile(file, globals, locals)  # execute the script
+  File "/home/simon/PycharmProjects/CNN-ThesisProj/main.py", line 82, in <module>
+    main(args)
+  File "/home/simon/PycharmProjects/CNN-ThesisProj/main.py", line 67, in main
+    model.train(x_train, y_train, x_test, y_test, x_valid, y_valid, train_end_idx, test_end_idx, valid_end_idx)
+  File "/home/simon/PycharmProjects/CNN-ThesisProj/model.py", line 180, in train
+    equal += int(np.array_equal(train_pred[0][ii][jj], y_train_batch[ii][jj]))
+  File "/home/simon/anaconda2/lib/python2.7/site-packages/numpy/core/numeric.py", line 2629, in array_equal
+    return bool(asarray(a1 == a2).all())
+  File "/home/simon/anaconda2/lib/python2.7/site-packages/numpy/core/_methods.py", line 41, in _all
+    return umr_all(a, axis, dtype, out, keepdims)
+KeyboardInterrupt
+
+Process finished with exit code 1

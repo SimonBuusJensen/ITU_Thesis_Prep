@@ -1,0 +1,9 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Work carried out so far}{}% 2
+\BOOKMARK [1][-]{section.3}{Protein Structures and Protein Data}{}% 3
+\BOOKMARK [2][-]{subsection.3.1}{CullPDB data set}{section.3}% 4
+\BOOKMARK [1][-]{section.4}{Convolutional Neural Network}{}% 5
+\BOOKMARK [2][-]{subsection.4.1}{Implementation}{section.4}% 6
+\BOOKMARK [2][-]{subsection.4.2}{Training}{section.4}% 7
+\BOOKMARK [1][-]{section.5}{Experiments}{}% 8
+\BOOKMARK [1][-]{section.6}{Future Plan}{}% 9

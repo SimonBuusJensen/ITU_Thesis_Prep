@@ -1,0 +1,1713 @@
+/home/simon/anaconda2/bin/python /home/simon/Repos/ThesisPrepProj/main.py cullpdb+profile_6133.npy
+('data shape: ', (6133, 700, 57))
+('ss-reduced data set shape: ', (6133, 700, 44), (6133, 700, 4))
+('training data shape: ', (5000, 700, 44), (5000, 700, 4))
+('test data shape: ', (600, 700, 44), (600, 700, 4))
+('test data shape: ', (533, 700, 44), (533, 700, 4))
+Here!
+Building model...
+2017-07-10 15:13:06.971803: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-10 15:13:06.971841: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-10 15:13:06.971847: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-10 15:13:06.971851: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-10 15:13:06.971854: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Shuffling train data...
+Batch: 10/156. train loss: 0.3356, train accuracy: 0.5137
+Batch: 1/1. test loss: 0.3024, test accuracy: 0.4254
+Batch: 20/156. train loss: 0.2289, train accuracy: 0.6773
+Batch: 1/1. test loss: 0.1841, test accuracy: 0.6557
+Batch: 30/156. train loss: 0.2207, train accuracy: 0.6961
+Batch: 1/1. test loss: 0.2503, test accuracy: 0.7000
+Batch: 40/156. train loss: 0.1981, train accuracy: 0.7012
+Batch: 1/1. test loss: 0.2150, test accuracy: 0.7265
+Batch: 50/156. train loss: 0.2173, train accuracy: 0.7164
+Batch: 1/1. test loss: 0.1936, test accuracy: 0.7051
+Batch: 60/156. train loss: 0.2085, train accuracy: 0.7199
+Batch: 1/1. test loss: 0.1950, test accuracy: 0.7326
+Batch: 70/156. train loss: 0.2026, train accuracy: 0.7517
+Batch: 1/1. test loss: 0.1609, test accuracy: 0.7375
+Batch: 80/156. train loss: 0.1657, train accuracy: 0.7612
+Batch: 1/1. test loss: 0.1758, test accuracy: 0.7459
+Batch: 90/156. train loss: 0.1799, train accuracy: 0.7465
+Batch: 1/1. test loss: 0.1620, test accuracy: 0.7672
+Batch: 100/156. train loss: 0.1636, train accuracy: 0.7768
+Batch: 1/1. test loss: 0.1969, test accuracy: 0.7563
+Batch: 110/156. train loss: 0.1949, train accuracy: 0.7179
+Batch: 1/1. test loss: 0.1948, test accuracy: 0.7284
+Batch: 120/156. train loss: 0.2142, train accuracy: 0.7612
+Batch: 1/1. test loss: 0.1708, test accuracy: 0.7717
+Batch: 130/156. train loss: 0.1997, train accuracy: 0.7725
+Batch: 1/1. test loss: 0.1782, test accuracy: 0.7757
+Batch: 140/156. train loss: 0.1823, train accuracy: 0.7719
+Batch: 1/1. test loss: 0.1760, test accuracy: 0.7489
+Batch: 150/156. train loss: 0.1770, train accuracy: 0.7772
+Batch: 1/1. test loss: 0.1704, test accuracy: 0.7773
+Epoch: 0. Epoch loss: 33.8237
+Shuffling train data...
+Batch: 10/156. train loss: 0.1641, train accuracy: 0.7810
+Batch: 1/1. test loss: 0.1568, test accuracy: 0.7799
+Batch: 20/156. train loss: 0.1175, train accuracy: 0.7841
+Batch: 1/1. test loss: 0.1521, test accuracy: 0.7849
+Batch: 30/156. train loss: 0.1440, train accuracy: 0.7984
+Batch: 1/1. test loss: 0.1994, test accuracy: 0.7764
+Batch: 40/156. train loss: 0.1774, train accuracy: 0.7766
+Batch: 1/1. test loss: 0.1847, test accuracy: 0.7950
+Batch: 50/156. train loss: 0.1725, train accuracy: 0.7759
+Batch: 1/1. test loss: 0.1612, test accuracy: 0.7761
+Batch: 60/156. train loss: 0.1755, train accuracy: 0.7881
+Batch: 1/1. test loss: 0.1639, test accuracy: 0.7921
+Batch: 70/156. train loss: 0.1695, train accuracy: 0.7804
+Batch: 1/1. test loss: 0.1537, test accuracy: 0.7790
+Batch: 80/156. train loss: 0.1530, train accuracy: 0.7918
+Batch: 1/1. test loss: 0.1362, test accuracy: 0.8089
+Batch: 90/156. train loss: 0.1605, train accuracy: 0.7876
+Batch: 1/1. test loss: 0.1774, test accuracy: 0.7668
+Batch: 100/156. train loss: 0.1283, train accuracy: 0.8093
+Batch: 1/1. test loss: 0.1692, test accuracy: 0.7682
+Batch: 110/156. train loss: 0.1455, train accuracy: 0.7937
+Batch: 1/1. test loss: 0.1566, test accuracy: 0.7756
+Batch: 120/156. train loss: 0.1292, train accuracy: 0.8029
+Batch: 1/1. test loss: 0.1685, test accuracy: 0.7814
+Batch: 130/156. train loss: 0.1339, train accuracy: 0.7956
+Batch: 1/1. test loss: 0.1964, test accuracy: 0.7838
+Batch: 140/156. train loss: 0.1791, train accuracy: 0.7848
+Batch: 1/1. test loss: 0.1763, test accuracy: 0.7853
+Batch: 150/156. train loss: 0.1412, train accuracy: 0.7980
+Batch: 1/1. test loss: 0.1451, test accuracy: 0.7948
+Epoch: 1. Epoch loss: 24.1422
+Prediction on validation set...
+Prediction accuracy: 0.7976
+Shuffling train data...
+Batch: 10/156. train loss: 0.1440, train accuracy: 0.8085
+Batch: 1/1. test loss: 0.1725, test accuracy: 0.7955
+Batch: 20/156. train loss: 0.1483, train accuracy: 0.7823
+Batch: 1/1. test loss: 0.1542, test accuracy: 0.7813
+Batch: 30/156. train loss: 0.1565, train accuracy: 0.8009
+Batch: 1/1. test loss: 0.1640, test accuracy: 0.7867
+Batch: 40/156. train loss: 0.1358, train accuracy: 0.8074
+Batch: 1/1. test loss: 0.1240, test accuracy: 0.7950
+Batch: 50/156. train loss: 0.1586, train accuracy: 0.8093
+Batch: 1/1. test loss: 0.1426, test accuracy: 0.7850
+Batch: 60/156. train loss: 0.1339, train accuracy: 0.8017
+Batch: 1/1. test loss: 0.1415, test accuracy: 0.7885
+Batch: 70/156. train loss: 0.1317, train accuracy: 0.7770
+Batch: 1/1. test loss: 0.1458, test accuracy: 0.7897
+Batch: 80/156. train loss: 0.1230, train accuracy: 0.8029
+Batch: 1/1. test loss: 0.1401, test accuracy: 0.7908
+Batch: 90/156. train loss: 0.1348, train accuracy: 0.7984
+Batch: 1/1. test loss: 0.1460, test accuracy: 0.7814
+Batch: 100/156. train loss: 0.1270, train accuracy: 0.8091
+Batch: 1/1. test loss: 0.1548, test accuracy: 0.8076
+Batch: 110/156. train loss: 0.1147, train accuracy: 0.8117
+Batch: 1/1. test loss: 0.1512, test accuracy: 0.7938
+Batch: 120/156. train loss: 0.1439, train accuracy: 0.8046
+Batch: 1/1. test loss: 0.1413, test accuracy: 0.7930
+Batch: 130/156. train loss: 0.1183, train accuracy: 0.7945
+Batch: 1/1. test loss: 0.1621, test accuracy: 0.8067
+Batch: 140/156. train loss: 0.1344, train accuracy: 0.7944
+Batch: 1/1. test loss: 0.1524, test accuracy: 0.8127
+Batch: 150/156. train loss: 0.1733, train accuracy: 0.7911
+Batch: 1/1. test loss: 0.1436, test accuracy: 0.8027
+Epoch: 2. Epoch loss: 22.9095
+Prediction on validation set...
+Prediction accuracy: 0.7999
+Shuffling train data...
+Batch: 10/156. train loss: 0.1790, train accuracy: 0.8089
+Batch: 1/1. test loss: 0.1391, test accuracy: 0.8074
+Batch: 20/156. train loss: 0.1716, train accuracy: 0.7733
+Batch: 1/1. test loss: 0.1598, test accuracy: 0.7683
+Batch: 30/156. train loss: 0.1625, train accuracy: 0.8075
+Batch: 1/1. test loss: 0.1494, test accuracy: 0.8038
+Batch: 40/156. train loss: 0.1409, train accuracy: 0.8150
+Batch: 1/1. test loss: 0.1659, test accuracy: 0.7883
+Batch: 50/156. train loss: 0.1423, train accuracy: 0.8058
+Batch: 1/1. test loss: 0.1498, test accuracy: 0.8104
+Batch: 60/156. train loss: 0.1405, train accuracy: 0.7808
+Batch: 1/1. test loss: 0.1330, test accuracy: 0.7962
+Batch: 70/156. train loss: 0.1494, train accuracy: 0.7830
+Batch: 1/1. test loss: 0.1465, test accuracy: 0.7949
+Batch: 80/156. train loss: 0.1559, train accuracy: 0.7979
+Batch: 1/1. test loss: 0.1377, test accuracy: 0.8128
+Batch: 90/156. train loss: 0.1273, train accuracy: 0.8093
+Batch: 1/1. test loss: 0.1269, test accuracy: 0.8192
+Batch: 100/156. train loss: 0.1448, train accuracy: 0.8075
+Batch: 1/1. test loss: 0.1328, test accuracy: 0.8160
+Batch: 110/156. train loss: 0.1157, train accuracy: 0.7893
+Batch: 1/1. test loss: 0.1329, test accuracy: 0.8177
+Batch: 120/156. train loss: 0.1598, train accuracy: 0.7849
+Batch: 1/1. test loss: 0.1384, test accuracy: 0.8010
+Batch: 130/156. train loss: 0.1281, train accuracy: 0.8230
+Batch: 1/1. test loss: 0.1540, test accuracy: 0.7921
+Batch: 140/156. train loss: 0.1453, train accuracy: 0.8152
+Batch: 1/1. test loss: 0.1424, test accuracy: 0.8058
+Batch: 150/156. train loss: 0.1265, train accuracy: 0.8215
+Batch: 1/1. test loss: 0.1303, test accuracy: 0.8046
+Epoch: 3. Epoch loss: 22.1094
+Prediction on validation set...
+Prediction accuracy: 0.8078
+Shuffling train data...
+Batch: 10/156. train loss: 0.1282, train accuracy: 0.8103
+Batch: 1/1. test loss: 0.1244, test accuracy: 0.7904
+Batch: 20/156. train loss: 0.1310, train accuracy: 0.8175
+Batch: 1/1. test loss: 0.1227, test accuracy: 0.7996
+Batch: 30/156. train loss: 0.1353, train accuracy: 0.7931
+Batch: 1/1. test loss: 0.1259, test accuracy: 0.8132
+Batch: 40/156. train loss: 0.1440, train accuracy: 0.8150
+Batch: 1/1. test loss: 0.1542, test accuracy: 0.8190
+Batch: 50/156. train loss: 0.1184, train accuracy: 0.8178
+Batch: 1/1. test loss: 0.1155, test accuracy: 0.7932
+Batch: 60/156. train loss: 0.1364, train accuracy: 0.8032
+Batch: 1/1. test loss: 0.1278, test accuracy: 0.8241
+Batch: 70/156. train loss: 0.1682, train accuracy: 0.8196
+Batch: 1/1. test loss: 0.1662, test accuracy: 0.7976
+Batch: 80/156. train loss: 0.1497, train accuracy: 0.8077
+Batch: 1/1. test loss: 0.1533, test accuracy: 0.8034
+Batch: 90/156. train loss: 0.1451, train accuracy: 0.8206
+Batch: 1/1. test loss: 0.1551, test accuracy: 0.8113
+Batch: 100/156. train loss: 0.1533, train accuracy: 0.8001
+Batch: 1/1. test loss: 0.1534, test accuracy: 0.7846
+Batch: 110/156. train loss: 0.1225, train accuracy: 0.8098
+Batch: 1/1. test loss: 0.1358, test accuracy: 0.8135
+Batch: 120/156. train loss: 0.1146, train accuracy: 0.8333
+Batch: 1/1. test loss: 0.1622, test accuracy: 0.7879
+Batch: 130/156. train loss: 0.1550, train accuracy: 0.7990
+Batch: 1/1. test loss: 0.1482, test accuracy: 0.8065
+Batch: 140/156. train loss: 0.1324, train accuracy: 0.8053
+Batch: 1/1. test loss: 0.1517, test accuracy: 0.8113
+Batch: 150/156. train loss: 0.1292, train accuracy: 0.8246
+Batch: 1/1. test loss: 0.1527, test accuracy: 0.8097
+Epoch: 4. Epoch loss: 21.4270
+Prediction on validation set...
+Prediction accuracy: 0.8106
+Shuffling train data...
+Batch: 10/156. train loss: 0.1175, train accuracy: 0.8403
+Batch: 1/1. test loss: 0.1436, test accuracy: 0.8035
+Batch: 20/156. train loss: 0.1461, train accuracy: 0.8109
+Batch: 1/1. test loss: 0.1182, test accuracy: 0.8075
+Batch: 30/156. train loss: 0.1503, train accuracy: 0.7820
+Batch: 1/1. test loss: 0.1452, test accuracy: 0.8236
+Batch: 40/156. train loss: 0.1351, train accuracy: 0.8177
+Batch: 1/1. test loss: 0.1246, test accuracy: 0.8192
+Batch: 50/156. train loss: 0.1635, train accuracy: 0.8070
+Batch: 1/1. test loss: 0.1286, test accuracy: 0.8174
+Batch: 60/156. train loss: 0.1294, train accuracy: 0.8188
+Batch: 1/1. test loss: 0.1470, test accuracy: 0.7982
+Batch: 70/156. train loss: 0.1445, train accuracy: 0.8166
+Batch: 1/1. test loss: 0.1399, test accuracy: 0.8198
+Batch: 80/156. train loss: 0.1361, train accuracy: 0.8026
+Batch: 1/1. test loss: 0.1534, test accuracy: 0.8022
+Batch: 90/156. train loss: 0.1733, train accuracy: 0.8132
+Batch: 1/1. test loss: 0.1433, test accuracy: 0.8045
+Batch: 100/156. train loss: 0.1137, train accuracy: 0.8183
+Batch: 1/1. test loss: 0.1265, test accuracy: 0.8127
+Batch: 110/156. train loss: 0.1552, train accuracy: 0.8144
+Batch: 1/1. test loss: 0.1458, test accuracy: 0.8032
+Batch: 120/156. train loss: 0.1409, train accuracy: 0.8163
+Batch: 1/1. test loss: 0.1683, test accuracy: 0.8047
+Batch: 130/156. train loss: 0.1276, train accuracy: 0.8243
+Batch: 1/1. test loss: 0.1622, test accuracy: 0.8083
+Batch: 140/156. train loss: 0.1317, train accuracy: 0.8300
+Batch: 1/1. test loss: 0.1318, test accuracy: 0.8014
+Batch: 150/156. train loss: 0.1276, train accuracy: 0.8156
+Batch: 1/1. test loss: 0.1275, test accuracy: 0.8152
+Epoch: 5. Epoch loss: 20.9831
+Prediction on validation set...
+Prediction accuracy: 0.8120
+Shuffling train data...
+Batch: 10/156. train loss: 0.1152, train accuracy: 0.8258
+Batch: 1/1. test loss: 0.1427, test accuracy: 0.8073
+Batch: 20/156. train loss: 0.1448, train accuracy: 0.8152
+Batch: 1/1. test loss: 0.1582, test accuracy: 0.8065
+Batch: 30/156. train loss: 0.1443, train accuracy: 0.8168
+Batch: 1/1. test loss: 0.1184, test accuracy: 0.8240
+Batch: 40/156. train loss: 0.1385, train accuracy: 0.8337
+Batch: 1/1. test loss: 0.1679, test accuracy: 0.7836
+Batch: 50/156. train loss: 0.1543, train accuracy: 0.8157
+Batch: 1/1. test loss: 0.1671, test accuracy: 0.7933
+Batch: 60/156. train loss: 0.1376, train accuracy: 0.8073
+Batch: 1/1. test loss: 0.1396, test accuracy: 0.8159
+Batch: 70/156. train loss: 0.1363, train accuracy: 0.7993
+Batch: 1/1. test loss: 0.1377, test accuracy: 0.8074
+Batch: 80/156. train loss: 0.1441, train accuracy: 0.8194
+Batch: 1/1. test loss: 0.1260, test accuracy: 0.8222
+Batch: 90/156. train loss: 0.1199, train accuracy: 0.8303
+Batch: 1/1. test loss: 0.1189, test accuracy: 0.8239
+Batch: 100/156. train loss: 0.1145, train accuracy: 0.8276
+Batch: 1/1. test loss: 0.1268, test accuracy: 0.8195
+Batch: 110/156. train loss: 0.1114, train accuracy: 0.8209
+Batch: 1/1. test loss: 0.1712, test accuracy: 0.8095
+Batch: 120/156. train loss: 0.1363, train accuracy: 0.8147
+Batch: 1/1. test loss: 0.1281, test accuracy: 0.7981
+Batch: 130/156. train loss: 0.1303, train accuracy: 0.8184
+Batch: 1/1. test loss: 0.1260, test accuracy: 0.8105
+Batch: 140/156. train loss: 0.1476, train accuracy: 0.8117
+Batch: 1/1. test loss: 0.1562, test accuracy: 0.8097
+Batch: 150/156. train loss: 0.1109, train accuracy: 0.8285
+Batch: 1/1. test loss: 0.1268, test accuracy: 0.8180
+Epoch: 6. Epoch loss: 20.5629
+Prediction on validation set...
+Prediction accuracy: 0.8134
+Shuffling train data...
+Batch: 10/156. train loss: 0.1141, train accuracy: 0.8236
+Batch: 1/1. test loss: 0.1816, test accuracy: 0.7996
+Batch: 20/156. train loss: 0.1407, train accuracy: 0.8107
+Batch: 1/1. test loss: 0.1292, test accuracy: 0.8194
+Batch: 30/156. train loss: 0.1314, train accuracy: 0.8153
+Batch: 1/1. test loss: 0.1186, test accuracy: 0.8283
+Batch: 40/156. train loss: 0.1269, train accuracy: 0.8177
+Batch: 1/1. test loss: 0.1141, test accuracy: 0.8141
+Batch: 50/156. train loss: 0.1165, train accuracy: 0.8339
+Batch: 1/1. test loss: 0.1748, test accuracy: 0.7967
+Batch: 60/156. train loss: 0.1487, train accuracy: 0.8073
+Batch: 1/1. test loss: 0.1239, test accuracy: 0.8305
+Batch: 70/156. train loss: 0.1747, train accuracy: 0.8053
+Batch: 1/1. test loss: 0.1264, test accuracy: 0.8221
+Batch: 80/156. train loss: 0.1291, train accuracy: 0.8213
+Batch: 1/1. test loss: 0.1438, test accuracy: 0.8009
+Batch: 90/156. train loss: 0.1249, train accuracy: 0.8183
+Batch: 1/1. test loss: 0.1431, test accuracy: 0.8168
+Batch: 100/156. train loss: 0.1313, train accuracy: 0.8329
+Batch: 1/1. test loss: 0.0911, test accuracy: 0.8323
+Batch: 110/156. train loss: 0.1204, train accuracy: 0.8217
+Batch: 1/1. test loss: 0.1140, test accuracy: 0.8252
+Batch: 120/156. train loss: 0.1614, train accuracy: 0.8186
+Batch: 1/1. test loss: 0.1408, test accuracy: 0.8071
+Batch: 130/156. train loss: 0.1285, train accuracy: 0.8239
+Batch: 1/1. test loss: 0.1440, test accuracy: 0.8194
+Batch: 140/156. train loss: 0.1153, train accuracy: 0.8291
+Batch: 1/1. test loss: 0.1423, test accuracy: 0.7970
+Batch: 150/156. train loss: 0.1626, train accuracy: 0.8105
+Batch: 1/1. test loss: 0.1396, test accuracy: 0.7971
+Epoch: 7. Epoch loss: 20.3333
+Prediction on validation set...
+Prediction accuracy: 0.8135
+Shuffling train data...
+Batch: 10/156. train loss: 0.1248, train accuracy: 0.8071
+Batch: 1/1. test loss: 0.1525, test accuracy: 0.8137
+Batch: 20/156. train loss: 0.1133, train accuracy: 0.8386
+Batch: 1/1. test loss: 0.1176, test accuracy: 0.8381
+Batch: 30/156. train loss: 0.1026, train accuracy: 0.8166
+Batch: 1/1. test loss: 0.1730, test accuracy: 0.8010
+Batch: 40/156. train loss: 0.0903, train accuracy: 0.8295
+Batch: 1/1. test loss: 0.1653, test accuracy: 0.8080
+Batch: 50/156. train loss: 0.1170, train accuracy: 0.8453
+Batch: 1/1. test loss: 0.1320, test accuracy: 0.8024
+Batch: 60/156. train loss: 0.1033, train accuracy: 0.8310
+Batch: 1/1. test loss: 0.1274, test accuracy: 0.8305
+Batch: 70/156. train loss: 0.1346, train accuracy: 0.8278
+Batch: 1/1. test loss: 0.1148, test accuracy: 0.8148
+Batch: 80/156. train loss: 0.1337, train accuracy: 0.8251
+Batch: 1/1. test loss: 0.1540, test accuracy: 0.8090
+Batch: 90/156. train loss: 0.1412, train accuracy: 0.8223
+Batch: 1/1. test loss: 0.1254, test accuracy: 0.8212
+Batch: 100/156. train loss: 0.1421, train accuracy: 0.8345
+Batch: 1/1. test loss: 0.1992, test accuracy: 0.7971
+Batch: 110/156. train loss: 0.1316, train accuracy: 0.8322
+Batch: 1/1. test loss: 0.1433, test accuracy: 0.8211
+Batch: 120/156. train loss: 0.1287, train accuracy: 0.8135
+Batch: 1/1. test loss: 0.1090, test accuracy: 0.8227
+Batch: 130/156. train loss: 0.1337, train accuracy: 0.8248
+Batch: 1/1. test loss: 0.1455, test accuracy: 0.8144
+Batch: 140/156. train loss: 0.1287, train accuracy: 0.8142
+Batch: 1/1. test loss: 0.1332, test accuracy: 0.8141
+Batch: 150/156. train loss: 0.1244, train accuracy: 0.8180
+Batch: 1/1. test loss: 0.1387, test accuracy: 0.7901
+Epoch: 8. Epoch loss: 19.9720
+Prediction on validation set...
+Prediction accuracy: 0.8145
+Shuffling train data...
+Batch: 10/156. train loss: 0.1162, train accuracy: 0.8354
+Batch: 1/1. test loss: 0.1593, test accuracy: 0.7960
+Batch: 20/156. train loss: 0.1127, train accuracy: 0.8324
+Batch: 1/1. test loss: 0.1311, test accuracy: 0.8233
+Batch: 30/156. train loss: 0.1453, train accuracy: 0.8223
+Batch: 1/1. test loss: 0.1082, test accuracy: 0.8328
+Batch: 40/156. train loss: 0.1255, train accuracy: 0.8304
+Batch: 1/1. test loss: 0.1252, test accuracy: 0.8249
+Batch: 50/156. train loss: 0.1041, train accuracy: 0.8115
+Batch: 1/1. test loss: 0.1027, test accuracy: 0.8380
+Batch: 60/156. train loss: 0.1440, train accuracy: 0.8152
+Batch: 1/1. test loss: 0.1416, test accuracy: 0.8213
+Batch: 70/156. train loss: 0.1284, train accuracy: 0.8251
+Batch: 1/1. test loss: 0.1216, test accuracy: 0.8128
+Batch: 80/156. train loss: 0.1313, train accuracy: 0.8134
+Batch: 1/1. test loss: 0.1064, test accuracy: 0.8147
+Batch: 90/156. train loss: 0.1303, train accuracy: 0.8241
+Batch: 1/1. test loss: 0.1162, test accuracy: 0.8268
+Batch: 100/156. train loss: 0.1116, train accuracy: 0.8466
+Batch: 1/1. test loss: 0.1257, test accuracy: 0.8251
+Batch: 110/156. train loss: 0.1273, train accuracy: 0.8347
+Batch: 1/1. test loss: 0.1410, test accuracy: 0.8255
+Batch: 120/156. train loss: 0.1274, train accuracy: 0.8341
+Batch: 1/1. test loss: 0.1409, test accuracy: 0.8160
+Batch: 130/156. train loss: 0.1386, train accuracy: 0.8316
+Batch: 1/1. test loss: 0.1341, test accuracy: 0.8189
+Batch: 140/156. train loss: 0.1324, train accuracy: 0.8276
+Batch: 1/1. test loss: 0.1444, test accuracy: 0.8156
+Batch: 150/156. train loss: 0.1088, train accuracy: 0.8302
+Batch: 1/1. test loss: 0.1310, test accuracy: 0.8130
+Epoch: 9. Epoch loss: 19.7170
+Prediction on validation set...
+Prediction accuracy: 0.8172
+Shuffling train data...
+Batch: 10/156. train loss: 0.1112, train accuracy: 0.8330
+Batch: 1/1. test loss: 0.1035, test accuracy: 0.8377
+Batch: 20/156. train loss: 0.1452, train accuracy: 0.8293
+Batch: 1/1. test loss: 0.1230, test accuracy: 0.8174
+Batch: 30/156. train loss: 0.1113, train accuracy: 0.8316
+Batch: 1/1. test loss: 0.1122, test accuracy: 0.8299
+Batch: 40/156. train loss: 0.1115, train accuracy: 0.8246
+Batch: 1/1. test loss: 0.1412, test accuracy: 0.8141
+Batch: 50/156. train loss: 0.1249, train accuracy: 0.8303
+Batch: 1/1. test loss: 0.1214, test accuracy: 0.8251
+Batch: 60/156. train loss: 0.1306, train accuracy: 0.8357
+Batch: 1/1. test loss: 0.1455, test accuracy: 0.8208
+Batch: 70/156. train loss: 0.1457, train accuracy: 0.8276
+Batch: 1/1. test loss: 0.1590, test accuracy: 0.7967
+Batch: 80/156. train loss: 0.1110, train accuracy: 0.8364
+Batch: 1/1. test loss: 0.1056, test accuracy: 0.8233
+Batch: 90/156. train loss: 0.1107, train accuracy: 0.8436
+Batch: 1/1. test loss: 0.1434, test accuracy: 0.8176
+Batch: 100/156. train loss: 0.1522, train accuracy: 0.8106
+Batch: 1/1. test loss: 0.1447, test accuracy: 0.8338
+Batch: 110/156. train loss: 0.0964, train accuracy: 0.8399
+Batch: 1/1. test loss: 0.1154, test accuracy: 0.8204
+Batch: 120/156. train loss: 0.1409, train accuracy: 0.8408
+Batch: 1/1. test loss: 0.1132, test accuracy: 0.8311
+Batch: 130/156. train loss: 0.1200, train accuracy: 0.8336
+Batch: 1/1. test loss: 0.1232, test accuracy: 0.8168
+Batch: 140/156. train loss: 0.1341, train accuracy: 0.8142
+Batch: 1/1. test loss: 0.1402, test accuracy: 0.8184
+Batch: 150/156. train loss: 0.1415, train accuracy: 0.8311
+Batch: 1/1. test loss: 0.1492, test accuracy: 0.8018
+Epoch: 10. Epoch loss: 19.3908
+Prediction on validation set...
+Prediction accuracy: 0.8186
+Shuffling train data...
+Batch: 10/156. train loss: 0.1006, train accuracy: 0.8520
+Batch: 1/1. test loss: 0.1182, test accuracy: 0.8160
+Batch: 20/156. train loss: 0.1138, train accuracy: 0.8453
+Batch: 1/1. test loss: 0.1533, test accuracy: 0.7928
+Batch: 30/156. train loss: 0.1122, train accuracy: 0.8393
+Batch: 1/1. test loss: 0.1293, test accuracy: 0.8106
+Batch: 40/156. train loss: 0.1006, train accuracy: 0.8463
+Batch: 1/1. test loss: 0.1385, test accuracy: 0.8016
+Batch: 50/156. train loss: 0.0895, train accuracy: 0.8469
+Batch: 1/1. test loss: 0.1355, test accuracy: 0.8114
+Batch: 60/156. train loss: 0.0976, train accuracy: 0.8520
+Batch: 1/1. test loss: 0.1544, test accuracy: 0.8050
+Batch: 70/156. train loss: 0.1374, train accuracy: 0.8304
+Batch: 1/1. test loss: 0.1381, test accuracy: 0.8187
+Batch: 80/156. train loss: 0.1104, train accuracy: 0.8413
+Batch: 1/1. test loss: 0.1284, test accuracy: 0.8192
+Batch: 90/156. train loss: 0.1251, train accuracy: 0.8337
+Batch: 1/1. test loss: 0.1504, test accuracy: 0.8087
+Batch: 100/156. train loss: 0.1161, train accuracy: 0.8390
+Batch: 1/1. test loss: 0.1392, test accuracy: 0.8194
+Batch: 110/156. train loss: 0.1059, train accuracy: 0.8258
+Batch: 1/1. test loss: 0.1503, test accuracy: 0.8150
+Batch: 120/156. train loss: 0.1050, train accuracy: 0.8419
+Batch: 1/1. test loss: 0.1306, test accuracy: 0.8156
+Batch: 130/156. train loss: 0.1014, train accuracy: 0.8391
+Batch: 1/1. test loss: 0.1463, test accuracy: 0.8138
+Batch: 140/156. train loss: 0.1114, train accuracy: 0.8231
+Batch: 1/1. test loss: 0.1344, test accuracy: 0.8205
+Batch: 150/156. train loss: 0.1053, train accuracy: 0.8347
+Batch: 1/1. test loss: 0.1310, test accuracy: 0.8151
+Epoch: 11. Epoch loss: 19.1574
+Prediction on validation set...
+Prediction accuracy: 0.8205
+Shuffling train data...
+Batch: 10/156. train loss: 0.1166, train accuracy: 0.8538
+Batch: 1/1. test loss: 0.1360, test accuracy: 0.8066
+Batch: 20/156. train loss: 0.1246, train accuracy: 0.8305
+Batch: 1/1. test loss: 0.1371, test accuracy: 0.8266
+Batch: 30/156. train loss: 0.1139, train accuracy: 0.8346
+Batch: 1/1. test loss: 0.1302, test accuracy: 0.8182
+Batch: 40/156. train loss: 0.0758, train accuracy: 0.8654
+Batch: 1/1. test loss: 0.1428, test accuracy: 0.8071
+Batch: 50/156. train loss: 0.1091, train accuracy: 0.8553
+Batch: 1/1. test loss: 0.1595, test accuracy: 0.8095
+Batch: 60/156. train loss: 0.1224, train accuracy: 0.8398
+Batch: 1/1. test loss: 0.1312, test accuracy: 0.8117
+Batch: 70/156. train loss: 0.1299, train accuracy: 0.8377
+Batch: 1/1. test loss: 0.1453, test accuracy: 0.8154
+Batch: 80/156. train loss: 0.1614, train accuracy: 0.8292
+Batch: 1/1. test loss: 0.1244, test accuracy: 0.8172
+Batch: 90/156. train loss: 0.1229, train accuracy: 0.8321
+Batch: 1/1. test loss: 0.1101, test accuracy: 0.8332
+Batch: 100/156. train loss: 0.1360, train accuracy: 0.8250
+Batch: 1/1. test loss: 0.1537, test accuracy: 0.8212
+Batch: 110/156. train loss: 0.0984, train accuracy: 0.8511
+Batch: 1/1. test loss: 0.1151, test accuracy: 0.8385
+Batch: 120/156. train loss: 0.1322, train accuracy: 0.8286
+Batch: 1/1. test loss: 0.1530, test accuracy: 0.8041
+Batch: 130/156. train loss: 0.1200, train accuracy: 0.8397
+Batch: 1/1. test loss: 0.1138, test accuracy: 0.8381
+Batch: 140/156. train loss: 0.1165, train accuracy: 0.8237
+Batch: 1/1. test loss: 0.1141, test accuracy: 0.8261
+Batch: 150/156. train loss: 0.1413, train accuracy: 0.8400
+Batch: 1/1. test loss: 0.1740, test accuracy: 0.7961
+Epoch: 12. Epoch loss: 18.9470
+Prediction on validation set...
+Prediction accuracy: 0.8212
+Shuffling train data...
+Batch: 10/156. train loss: 0.1392, train accuracy: 0.8262
+Batch: 1/1. test loss: 0.1410, test accuracy: 0.8164
+Batch: 20/156. train loss: 0.1276, train accuracy: 0.8343
+Batch: 1/1. test loss: 0.1508, test accuracy: 0.8168
+Batch: 30/156. train loss: 0.1135, train accuracy: 0.8317
+Batch: 1/1. test loss: 0.1632, test accuracy: 0.7990
+Batch: 40/156. train loss: 0.1124, train accuracy: 0.8349
+Batch: 1/1. test loss: 0.1153, test accuracy: 0.8347
+Batch: 50/156. train loss: 0.1284, train accuracy: 0.8328
+Batch: 1/1. test loss: 0.1382, test accuracy: 0.8055
+Batch: 60/156. train loss: 0.1198, train accuracy: 0.8450
+Batch: 1/1. test loss: 0.1317, test accuracy: 0.8278
+Batch: 70/156. train loss: 0.1222, train accuracy: 0.8395
+Batch: 1/1. test loss: 0.1425, test accuracy: 0.7970
+Batch: 80/156. train loss: 0.1425, train accuracy: 0.8358
+Batch: 1/1. test loss: 0.1471, test accuracy: 0.8284
+Batch: 90/156. train loss: 0.0993, train accuracy: 0.8480
+Batch: 1/1. test loss: 0.1232, test accuracy: 0.8112
+Batch: 100/156. train loss: 0.1055, train accuracy: 0.8425
+Batch: 1/1. test loss: 0.1179, test accuracy: 0.8171
+Batch: 110/156. train loss: 0.1449, train accuracy: 0.8146
+Batch: 1/1. test loss: 0.1557, test accuracy: 0.8140
+Batch: 120/156. train loss: 0.1003, train accuracy: 0.8456
+Batch: 1/1. test loss: 0.1244, test accuracy: 0.8321
+Batch: 130/156. train loss: 0.1092, train accuracy: 0.8469
+Batch: 1/1. test loss: 0.1193, test accuracy: 0.8088
+Batch: 140/156. train loss: 0.1003, train accuracy: 0.8277
+Batch: 1/1. test loss: 0.1448, test accuracy: 0.8137
+Batch: 150/156. train loss: 0.0879, train accuracy: 0.8558
+Batch: 1/1. test loss: 0.1632, test accuracy: 0.8024
+Epoch: 13. Epoch loss: 18.7658
+Prediction on validation set...
+Prediction accuracy: 0.8205
+Shuffling train data...
+Batch: 10/156. train loss: 0.1306, train accuracy: 0.8267
+Batch: 1/1. test loss: 0.1181, test accuracy: 0.8227
+Batch: 20/156. train loss: 0.0994, train accuracy: 0.8534
+Batch: 1/1. test loss: 0.1267, test accuracy: 0.8230
+Batch: 30/156. train loss: 0.1259, train accuracy: 0.8226
+Batch: 1/1. test loss: 0.1456, test accuracy: 0.8169
+Batch: 40/156. train loss: 0.1157, train accuracy: 0.8447
+Batch: 1/1. test loss: 0.1189, test accuracy: 0.8161
+Batch: 50/156. train loss: 0.1213, train accuracy: 0.8391
+Batch: 1/1. test loss: 0.1606, test accuracy: 0.8115
+Batch: 60/156. train loss: 0.1325, train accuracy: 0.8321
+Batch: 1/1. test loss: 0.1383, test accuracy: 0.8271
+Batch: 70/156. train loss: 0.0940, train accuracy: 0.8540
+Batch: 1/1. test loss: 0.1226, test accuracy: 0.8350
+Batch: 80/156. train loss: 0.1277, train accuracy: 0.8311
+Batch: 1/1. test loss: 0.1314, test accuracy: 0.8205
+Batch: 90/156. train loss: 0.1074, train accuracy: 0.8452
+Batch: 1/1. test loss: 0.1426, test accuracy: 0.8085
+Batch: 100/156. train loss: 0.1100, train accuracy: 0.8495
+Batch: 1/1. test loss: 0.1514, test accuracy: 0.8111
+Batch: 110/156. train loss: 0.1040, train accuracy: 0.8421
+Batch: 1/1. test loss: 0.1177, test accuracy: 0.8161
+Batch: 120/156. train loss: 0.1182, train accuracy: 0.8360
+Batch: 1/1. test loss: 0.1325, test accuracy: 0.8157
+Batch: 130/156. train loss: 0.1085, train accuracy: 0.8456
+Batch: 1/1. test loss: 0.1350, test accuracy: 0.8251
+Batch: 140/156. train loss: 0.1110, train accuracy: 0.8443
+Batch: 1/1. test loss: 0.1547, test accuracy: 0.8139
+Batch: 150/156. train loss: 0.1297, train accuracy: 0.8343
+Batch: 1/1. test loss: 0.1207, test accuracy: 0.8097
+Epoch: 14. Epoch loss: 18.4560
+Prediction on validation set...
+Prediction accuracy: 0.8188
+Shuffling train data...
+Batch: 10/156. train loss: 0.1417, train accuracy: 0.8431
+Batch: 1/1. test loss: 0.1401, test accuracy: 0.8132
+Batch: 20/156. train loss: 0.1156, train accuracy: 0.8420
+Batch: 1/1. test loss: 0.1401, test accuracy: 0.8066
+Batch: 30/156. train loss: 0.1136, train accuracy: 0.8438
+Batch: 1/1. test loss: 0.1467, test accuracy: 0.8260
+Batch: 40/156. train loss: 0.1008, train accuracy: 0.8385
+Batch: 1/1. test loss: 0.1227, test accuracy: 0.8215
+Batch: 50/156. train loss: 0.1086, train accuracy: 0.8396
+Batch: 1/1. test loss: 0.1287, test accuracy: 0.8308
+Batch: 60/156. train loss: 0.1436, train accuracy: 0.8160
+Batch: 1/1. test loss: 0.1428, test accuracy: 0.8065
+Batch: 70/156. train loss: 0.1028, train accuracy: 0.8543
+Batch: 1/1. test loss: 0.1248, test accuracy: 0.8197
+Batch: 80/156. train loss: 0.1354, train accuracy: 0.8349
+Batch: 1/1. test loss: 0.1518, test accuracy: 0.8189
+Batch: 90/156. train loss: 0.1225, train accuracy: 0.8365
+Batch: 1/1. test loss: 0.1621, test accuracy: 0.8037
+Batch: 100/156. train loss: 0.1209, train accuracy: 0.8363
+Batch: 1/1. test loss: 0.1067, test accuracy: 0.8439
+Batch: 110/156. train loss: 0.1028, train accuracy: 0.8408
+Batch: 1/1. test loss: 0.1168, test accuracy: 0.8379
+Batch: 120/156. train loss: 0.1175, train accuracy: 0.8149
+Batch: 1/1. test loss: 0.1170, test accuracy: 0.8163
+Batch: 130/156. train loss: 0.1356, train accuracy: 0.8478
+Batch: 1/1. test loss: 0.1180, test accuracy: 0.8314
+Batch: 140/156. train loss: 0.1353, train accuracy: 0.8381
+Batch: 1/1. test loss: 0.1348, test accuracy: 0.8068
+Batch: 150/156. train loss: 0.1120, train accuracy: 0.8258
+Batch: 1/1. test loss: 0.1271, test accuracy: 0.8381
+Epoch: 15. Epoch loss: 18.2169
+Prediction on validation set...
+Prediction accuracy: 0.8202
+Shuffling train data...
+Batch: 10/156. train loss: 0.1172, train accuracy: 0.8385
+Batch: 1/1. test loss: 0.1509, test accuracy: 0.8073
+Batch: 20/156. train loss: 0.1242, train accuracy: 0.8414
+Batch: 1/1. test loss: 0.1133, test accuracy: 0.8272
+Batch: 30/156. train loss: 0.1053, train accuracy: 0.8558
+Batch: 1/1. test loss: 0.1319, test accuracy: 0.8119
+Batch: 40/156. train loss: 0.0941, train accuracy: 0.8491
+Batch: 1/1. test loss: 0.1499, test accuracy: 0.8120
+Batch: 50/156. train loss: 0.1326, train accuracy: 0.8377
+Batch: 1/1. test loss: 0.1265, test accuracy: 0.8157
+Batch: 60/156. train loss: 0.1120, train accuracy: 0.8522
+Batch: 1/1. test loss: 0.1351, test accuracy: 0.8095
+Batch: 70/156. train loss: 0.0854, train accuracy: 0.8483
+Batch: 1/1. test loss: 0.1427, test accuracy: 0.8184
+Batch: 80/156. train loss: 0.1097, train accuracy: 0.8497
+Batch: 1/1. test loss: 0.1448, test accuracy: 0.8218
+Batch: 90/156. train loss: 0.1131, train accuracy: 0.8405
+Batch: 1/1. test loss: 0.1429, test accuracy: 0.8161
+Batch: 100/156. train loss: 0.0998, train accuracy: 0.8416
+Batch: 1/1. test loss: 0.1526, test accuracy: 0.8274
+Batch: 110/156. train loss: 0.0999, train accuracy: 0.8538
+Batch: 1/1. test loss: 0.1503, test accuracy: 0.8027
+Batch: 120/156. train loss: 0.1068, train accuracy: 0.8445
+Batch: 1/1. test loss: 0.1320, test accuracy: 0.8037
+Batch: 130/156. train loss: 0.0913, train accuracy: 0.8514
+Batch: 1/1. test loss: 0.1654, test accuracy: 0.8069
+Batch: 140/156. train loss: 0.1229, train accuracy: 0.8428
+Batch: 1/1. test loss: 0.1324, test accuracy: 0.8214
+Batch: 150/156. train loss: 0.1112, train accuracy: 0.8513
+Batch: 1/1. test loss: 0.1257, test accuracy: 0.7942
+Epoch: 16. Epoch loss: 17.9165
+Prediction on validation set...
+Prediction accuracy: 0.8202
+Shuffling train data...
+Batch: 10/156. train loss: 0.0988, train accuracy: 0.8587
+Batch: 1/1. test loss: 0.1402, test accuracy: 0.8090
+Batch: 20/156. train loss: 0.1055, train accuracy: 0.8525
+Batch: 1/1. test loss: 0.1305, test accuracy: 0.8188
+Batch: 30/156. train loss: 0.1062, train accuracy: 0.8604
+Batch: 1/1. test loss: 0.1479, test accuracy: 0.8003
+Batch: 40/156. train loss: 0.1207, train accuracy: 0.8438
+Batch: 1/1. test loss: 0.1411, test accuracy: 0.8045
+Batch: 50/156. train loss: 0.1355, train accuracy: 0.8447
+Batch: 1/1. test loss: 0.1312, test accuracy: 0.8078
+Batch: 60/156. train loss: 0.1189, train accuracy: 0.8457
+Batch: 1/1. test loss: 0.1224, test accuracy: 0.8367
+Batch: 70/156. train loss: 0.0943, train accuracy: 0.8684
+Batch: 1/1. test loss: 0.1503, test accuracy: 0.8121
+Batch: 80/156. train loss: 0.1240, train accuracy: 0.8497
+Batch: 1/1. test loss: 0.1451, test accuracy: 0.8057
+Batch: 90/156. train loss: 0.1335, train accuracy: 0.8457
+Batch: 1/1. test loss: 0.1591, test accuracy: 0.8205
+Batch: 100/156. train loss: 0.1049, train accuracy: 0.8639
+Batch: 1/1. test loss: 0.1306, test accuracy: 0.8190
+Batch: 110/156. train loss: 0.1158, train accuracy: 0.8467
+Batch: 1/1. test loss: 0.1206, test accuracy: 0.8101
+Batch: 120/156. train loss: 0.1134, train accuracy: 0.8244
+Batch: 1/1. test loss: 0.1450, test accuracy: 0.7992
+Batch: 130/156. train loss: 0.0957, train accuracy: 0.8450
+Batch: 1/1. test loss: 0.1518, test accuracy: 0.8024
+Batch: 140/156. train loss: 0.1222, train accuracy: 0.8507
+Batch: 1/1. test loss: 0.1458, test accuracy: 0.8115
+Batch: 150/156. train loss: 0.1315, train accuracy: 0.8339
+Batch: 1/1. test loss: 0.1328, test accuracy: 0.8189
+Epoch: 17. Epoch loss: 17.7703
+Prediction on validation set...
+Prediction accuracy: 0.8181
+Shuffling train data...
+Batch: 10/156. train loss: 0.1149, train accuracy: 0.8610
+Batch: 1/1. test loss: 0.1291, test accuracy: 0.8140
+Batch: 20/156. train loss: 0.1035, train accuracy: 0.8486
+Batch: 1/1. test loss: 0.1484, test accuracy: 0.8056
+Batch: 30/156. train loss: 0.1019, train accuracy: 0.8422
+Batch: 1/1. test loss: 0.1574, test accuracy: 0.8169
+Batch: 40/156. train loss: 0.1195, train accuracy: 0.8326
+Batch: 1/1. test loss: 0.1236, test accuracy: 0.8384
+Batch: 50/156. train loss: 0.0922, train accuracy: 0.8639
+Batch: 1/1. test loss: 0.1558, test accuracy: 0.7989
+Batch: 60/156. train loss: 0.1339, train accuracy: 0.8419
+Batch: 1/1. test loss: 0.1480, test accuracy: 0.8187
+Batch: 70/156. train loss: 0.0959, train accuracy: 0.8585
+Batch: 1/1. test loss: 0.1303, test accuracy: 0.8306
+Batch: 80/156. train loss: 0.0966, train accuracy: 0.8559
+Batch: 1/1. test loss: 0.1523, test accuracy: 0.8117
+Batch: 90/156. train loss: 0.0997, train accuracy: 0.8643
+Batch: 1/1. test loss: 0.1494, test accuracy: 0.8097
+Batch: 100/156. train loss: 0.1106, train accuracy: 0.8554
+Batch: 1/1. test loss: 0.1647, test accuracy: 0.8070
+Batch: 110/156. train loss: 0.1041, train accuracy: 0.8409
+Batch: 1/1. test loss: 0.1226, test accuracy: 0.8106
+Batch: 120/156. train loss: 0.1235, train accuracy: 0.8414
+Batch: 1/1. test loss: 0.1573, test accuracy: 0.8082
+Batch: 130/156. train loss: 0.1329, train accuracy: 0.8333
+Batch: 1/1. test loss: 0.1447, test accuracy: 0.8156
+Batch: 140/156. train loss: 0.0926, train accuracy: 0.8553
+Batch: 1/1. test loss: 0.1246, test accuracy: 0.8256
+Batch: 150/156. train loss: 0.1242, train accuracy: 0.8470
+Batch: 1/1. test loss: 0.1373, test accuracy: 0.8218
+Epoch: 18. Epoch loss: 17.7175
+Prediction on validation set...
+Prediction accuracy: 0.8186
+Shuffling train data...
+Batch: 10/156. train loss: 0.1019, train accuracy: 0.8629
+Batch: 1/1. test loss: 0.1078, test accuracy: 0.8154
+Batch: 20/156. train loss: 0.1233, train accuracy: 0.8443
+Batch: 1/1. test loss: 0.1310, test accuracy: 0.8256
+Batch: 30/156. train loss: 0.0945, train accuracy: 0.8759
+Batch: 1/1. test loss: 0.1455, test accuracy: 0.8143
+Batch: 40/156. train loss: 0.1217, train accuracy: 0.8464
+Batch: 1/1. test loss: 0.1585, test accuracy: 0.8086
+Batch: 50/156. train loss: 0.1152, train accuracy: 0.8537
+Batch: 1/1. test loss: 0.1323, test accuracy: 0.8291
+Batch: 60/156. train loss: 0.1071, train accuracy: 0.8522
+Batch: 1/1. test loss: 0.1166, test accuracy: 0.8219
+Batch: 70/156. train loss: 0.0996, train accuracy: 0.8437
+Batch: 1/1. test loss: 0.1414, test accuracy: 0.8092
+Batch: 80/156. train loss: 0.1112, train accuracy: 0.8567
+Batch: 1/1. test loss: 0.1126, test accuracy: 0.8102
+Batch: 90/156. train loss: 0.1041, train accuracy: 0.8653
+Batch: 1/1. test loss: 0.1223, test accuracy: 0.8131
+Batch: 100/156. train loss: 0.1249, train accuracy: 0.8567
+Batch: 1/1. test loss: 0.1607, test accuracy: 0.8105
+Batch: 110/156. train loss: 0.1266, train accuracy: 0.8333
+Batch: 1/1. test loss: 0.1208, test accuracy: 0.8208
+Batch: 120/156. train loss: 0.1125, train accuracy: 0.8449
+Batch: 1/1. test loss: 0.1571, test accuracy: 0.8203
+Batch: 130/156. train loss: 0.1251, train accuracy: 0.8467
+Batch: 1/1. test loss: 0.1606, test accuracy: 0.7990
+Batch: 140/156. train loss: 0.1058, train accuracy: 0.8564
+Batch: 1/1. test loss: 0.1562, test accuracy: 0.8062
+Batch: 150/156. train loss: 0.1360, train accuracy: 0.8491
+Batch: 1/1. test loss: 0.1182, test accuracy: 0.8273
+Epoch: 19. Epoch loss: 17.4310
+Prediction on validation set...
+Prediction accuracy: 0.8185
+Shuffling train data...
+Batch: 10/156. train loss: 0.1151, train accuracy: 0.8510
+Batch: 1/1. test loss: 0.1363, test accuracy: 0.8203
+Batch: 20/156. train loss: 0.1350, train accuracy: 0.8481
+Batch: 1/1. test loss: 0.1762, test accuracy: 0.8101
+Batch: 30/156. train loss: 0.1058, train accuracy: 0.8513
+Batch: 1/1. test loss: 0.1399, test accuracy: 0.8112
+Batch: 40/156. train loss: 0.1090, train accuracy: 0.8648
+Batch: 1/1. test loss: 0.1397, test accuracy: 0.7967
+Batch: 50/156. train loss: 0.0895, train accuracy: 0.8566
+Batch: 1/1. test loss: 0.1612, test accuracy: 0.8189
+Batch: 60/156. train loss: 0.0990, train accuracy: 0.8593
+Batch: 1/1. test loss: 0.1378, test accuracy: 0.7942
+Batch: 70/156. train loss: 0.1127, train accuracy: 0.8484
+Batch: 1/1. test loss: 0.1323, test accuracy: 0.8325
+Batch: 80/156. train loss: 0.1297, train accuracy: 0.8321
+Batch: 1/1. test loss: 0.1278, test accuracy: 0.8176
+Batch: 90/156. train loss: 0.1187, train accuracy: 0.8358
+Batch: 1/1. test loss: 0.1478, test accuracy: 0.8306
+Batch: 100/156. train loss: 0.1109, train accuracy: 0.8377
+Batch: 1/1. test loss: 0.1574, test accuracy: 0.8002
+Batch: 110/156. train loss: 0.1089, train accuracy: 0.8486
+Batch: 1/1. test loss: 0.1345, test accuracy: 0.8414
+Batch: 120/156. train loss: 0.0931, train accuracy: 0.8708
+Batch: 1/1. test loss: 0.1453, test accuracy: 0.8290
+Batch: 130/156. train loss: 0.1128, train accuracy: 0.8259
+Batch: 1/1. test loss: 0.1362, test accuracy: 0.8164
+Batch: 140/156. train loss: 0.1320, train accuracy: 0.8322
+Batch: 1/1. test loss: 0.1556, test accuracy: 0.7998
+Batch: 150/156. train loss: 0.1262, train accuracy: 0.8400
+Batch: 1/1. test loss: 0.1376, test accuracy: 0.8120
+Epoch: 20. Epoch loss: 17.1422
+Prediction on validation set...
+Prediction accuracy: 0.8187
+Shuffling train data...
+Batch: 10/156. train loss: 0.0899, train accuracy: 0.8700
+Batch: 1/1. test loss: 0.1538, test accuracy: 0.8088
+Batch: 20/156. train loss: 0.1024, train accuracy: 0.8607
+Batch: 1/1. test loss: 0.1389, test accuracy: 0.8233
+Batch: 30/156. train loss: 0.1097, train accuracy: 0.8701
+Batch: 1/1. test loss: 0.1227, test accuracy: 0.8231
+Batch: 40/156. train loss: 0.1248, train accuracy: 0.8349
+Batch: 1/1. test loss: 0.1427, test accuracy: 0.8256
+Batch: 50/156. train loss: 0.1038, train accuracy: 0.8712
+Batch: 1/1. test loss: 0.1385, test accuracy: 0.8221
+Batch: 60/156. train loss: 0.1037, train accuracy: 0.8571
+Batch: 1/1. test loss: 0.1521, test accuracy: 0.8155
+Batch: 70/156. train loss: 0.1125, train accuracy: 0.8607
+Batch: 1/1. test loss: 0.1604, test accuracy: 0.8123
+Batch: 80/156. train loss: 0.1158, train accuracy: 0.8210
+Batch: 1/1. test loss: 0.1510, test accuracy: 0.8257
+Batch: 90/156. train loss: 0.1430, train accuracy: 0.8373
+Batch: 1/1. test loss: 0.1604, test accuracy: 0.8278
+Batch: 100/156. train loss: 0.1177, train accuracy: 0.8481
+Batch: 1/1. test loss: 0.1344, test accuracy: 0.8187
+Batch: 110/156. train loss: 0.1167, train accuracy: 0.8549
+Batch: 1/1. test loss: 0.1431, test accuracy: 0.8074
+Batch: 120/156. train loss: 0.1178, train accuracy: 0.8487
+Batch: 1/1. test loss: 0.1437, test accuracy: 0.8148
+Batch: 130/156. train loss: 0.1010, train accuracy: 0.8560
+Batch: 1/1. test loss: 0.1436, test accuracy: 0.8271
+Batch: 140/156. train loss: 0.0946, train accuracy: 0.8579
+Batch: 1/1. test loss: 0.1857, test accuracy: 0.8051
+Batch: 150/156. train loss: 0.1183, train accuracy: 0.8471
+Batch: 1/1. test loss: 0.1377, test accuracy: 0.8235
+Epoch: 21. Epoch loss: 17.0530
+Prediction on validation set...
+Prediction accuracy: 0.8118
+Shuffling train data...
+Batch: 10/156. train loss: 0.1274, train accuracy: 0.8584
+Batch: 1/1. test loss: 0.1388, test accuracy: 0.8134
+Batch: 20/156. train loss: 0.1191, train accuracy: 0.8562
+Batch: 1/1. test loss: 0.1425, test accuracy: 0.8142
+Batch: 30/156. train loss: 0.1132, train accuracy: 0.8607
+Batch: 1/1. test loss: 0.1380, test accuracy: 0.8110
+Batch: 40/156. train loss: 0.1040, train accuracy: 0.8487
+Batch: 1/1. test loss: 0.1736, test accuracy: 0.8144
+Batch: 50/156. train loss: 0.1074, train accuracy: 0.8573
+Batch: 1/1. test loss: 0.1880, test accuracy: 0.8076
+Batch: 60/156. train loss: 0.0899, train accuracy: 0.8678
+Batch: 1/1. test loss: 0.1365, test accuracy: 0.8175
+Batch: 70/156. train loss: 0.1069, train accuracy: 0.8548
+Batch: 1/1. test loss: 0.1458, test accuracy: 0.8131
+Batch: 80/156. train loss: 0.0964, train accuracy: 0.8677
+Batch: 1/1. test loss: 0.1539, test accuracy: 0.8003
+Batch: 90/156. train loss: 0.1215, train accuracy: 0.8559
+Batch: 1/1. test loss: 0.1403, test accuracy: 0.8269
+Batch: 100/156. train loss: 0.1225, train accuracy: 0.8507
+Batch: 1/1. test loss: 0.1527, test accuracy: 0.8137
+Batch: 110/156. train loss: 0.1048, train accuracy: 0.8527
+Batch: 1/1. test loss: 0.1398, test accuracy: 0.8224
+Batch: 120/156. train loss: 0.1073, train accuracy: 0.8569
+Batch: 1/1. test loss: 0.1172, test accuracy: 0.8188
+Batch: 130/156. train loss: 0.1088, train accuracy: 0.8616
+Batch: 1/1. test loss: 0.1236, test accuracy: 0.8128
+Batch: 140/156. train loss: 0.1014, train accuracy: 0.8487
+Batch: 1/1. test loss: 0.1566, test accuracy: 0.7940
+Batch: 150/156. train loss: 0.0889, train accuracy: 0.8551
+Batch: 1/1. test loss: 0.1492, test accuracy: 0.8196
+Epoch: 22. Epoch loss: 16.8310
+Prediction on validation set...
+Prediction accuracy: 0.8169
+Shuffling train data...
+Batch: 10/156. train loss: 0.1266, train accuracy: 0.8460
+Batch: 1/1. test loss: 0.1334, test accuracy: 0.8104
+Batch: 20/156. train loss: 0.1075, train accuracy: 0.8657
+Batch: 1/1. test loss: 0.1432, test accuracy: 0.8212
+Batch: 30/156. train loss: 0.1242, train accuracy: 0.8558
+Batch: 1/1. test loss: 0.1484, test accuracy: 0.8119
+Batch: 40/156. train loss: 0.0895, train accuracy: 0.8505
+Batch: 1/1. test loss: 0.1419, test accuracy: 0.7982
+Batch: 50/156. train loss: 0.0874, train accuracy: 0.8638
+Batch: 1/1. test loss: 0.1728, test accuracy: 0.7666
+Batch: 60/156. train loss: 0.0979, train accuracy: 0.8682
+Batch: 1/1. test loss: 0.1260, test accuracy: 0.8314
+Batch: 70/156. train loss: 0.1093, train accuracy: 0.8660
+Batch: 1/1. test loss: 0.1106, test accuracy: 0.8333
+Batch: 80/156. train loss: 0.0967, train accuracy: 0.8711
+Batch: 1/1. test loss: 0.1384, test accuracy: 0.8134
+Batch: 90/156. train loss: 0.0889, train accuracy: 0.8659
+Batch: 1/1. test loss: 0.1017, test accuracy: 0.8309
+Batch: 100/156. train loss: 0.1002, train accuracy: 0.8604
+Batch: 1/1. test loss: 0.1788, test accuracy: 0.7953
+Batch: 110/156. train loss: 0.0944, train accuracy: 0.8520
+Batch: 1/1. test loss: 0.1542, test accuracy: 0.8191
+Batch: 120/156. train loss: 0.1010, train accuracy: 0.8596
+Batch: 1/1. test loss: 0.1463, test accuracy: 0.8079
+Batch: 130/156. train loss: 0.0851, train accuracy: 0.8567
+Batch: 1/1. test loss: 0.1266, test accuracy: 0.8176
+Batch: 140/156. train loss: 0.1075, train accuracy: 0.8469
+Batch: 1/1. test loss: 0.1395, test accuracy: 0.8096
+Batch: 150/156. train loss: 0.1202, train accuracy: 0.8445
+Batch: 1/1. test loss: 0.1168, test accuracy: 0.8296
+Epoch: 23. Epoch loss: 16.7140
+Prediction on validation set...
+Prediction accuracy: 0.8154
+Shuffling train data...
+Batch: 10/156. train loss: 0.1123, train accuracy: 0.8561
+Batch: 1/1. test loss: 0.1766, test accuracy: 0.8048
+Batch: 20/156. train loss: 0.1207, train accuracy: 0.8553
+Batch: 1/1. test loss: 0.1591, test accuracy: 0.7978
+Batch: 30/156. train loss: 0.1060, train accuracy: 0.8671
+Batch: 1/1. test loss: 0.1345, test accuracy: 0.8286
+Batch: 40/156. train loss: 0.1055, train accuracy: 0.8660
+Batch: 1/1. test loss: 0.1346, test accuracy: 0.8237
+Batch: 50/156. train loss: 0.1065, train accuracy: 0.8625
+Batch: 1/1. test loss: 0.1150, test accuracy: 0.8229
+Batch: 60/156. train loss: 0.1061, train accuracy: 0.8566
+Batch: 1/1. test loss: 0.1414, test accuracy: 0.8083
+Batch: 70/156. train loss: 0.1173, train accuracy: 0.8721
+Batch: 1/1. test loss: 0.1545, test accuracy: 0.7970
+Batch: 80/156. train loss: 0.1180, train accuracy: 0.8616
+Batch: 1/1. test loss: 0.1284, test accuracy: 0.8174
+Batch: 90/156. train loss: 0.1049, train accuracy: 0.8489
+Batch: 1/1. test loss: 0.1813, test accuracy: 0.8007
+Batch: 100/156. train loss: 0.0915, train accuracy: 0.8574
+Batch: 1/1. test loss: 0.1331, test accuracy: 0.8093
+Batch: 110/156. train loss: 0.1110, train accuracy: 0.8529
+Batch: 1/1. test loss: 0.1396, test accuracy: 0.8051
+Batch: 120/156. train loss: 0.0834, train accuracy: 0.8762
+Batch: 1/1. test loss: 0.1492, test accuracy: 0.8121
+Batch: 130/156. train loss: 0.1369, train accuracy: 0.8568
+Batch: 1/1. test loss: 0.1606, test accuracy: 0.8170
+Batch: 140/156. train loss: 0.1008, train accuracy: 0.8639
+Batch: 1/1. test loss: 0.1343, test accuracy: 0.8027
+Batch: 150/156. train loss: 0.1043, train accuracy: 0.8606
+Batch: 1/1. test loss: 0.1458, test accuracy: 0.8191
+Epoch: 24. Epoch loss: 16.6521
+Prediction on validation set...
+Prediction accuracy: 0.8123
+Shuffling train data...
+Batch: 10/156. train loss: 0.0939, train accuracy: 0.8539
+Batch: 1/1. test loss: 0.1696, test accuracy: 0.7871
+Batch: 20/156. train loss: 0.1013, train accuracy: 0.8704
+Batch: 1/1. test loss: 0.1417, test accuracy: 0.8226
+Batch: 30/156. train loss: 0.1132, train accuracy: 0.8565
+Batch: 1/1. test loss: 0.1529, test accuracy: 0.8085
+Batch: 40/156. train loss: 0.0912, train accuracy: 0.8573
+Batch: 1/1. test loss: 0.1245, test accuracy: 0.8170
+Batch: 50/156. train loss: 0.1039, train accuracy: 0.8723
+Batch: 1/1. test loss: 0.0980, test accuracy: 0.8279
+Batch: 60/156. train loss: 0.0875, train accuracy: 0.8739
+Batch: 1/1. test loss: 0.1293, test accuracy: 0.8145
+Batch: 70/156. train loss: 0.1367, train accuracy: 0.8536
+Batch: 1/1. test loss: 0.1314, test accuracy: 0.8125
+Batch: 80/156. train loss: 0.1029, train accuracy: 0.8568
+Batch: 1/1. test loss: 0.1879, test accuracy: 0.7928
+Batch: 90/156. train loss: 0.0964, train accuracy: 0.8642
+Batch: 1/1. test loss: 0.1085, test accuracy: 0.8118
+Batch: 100/156. train loss: 0.1182, train accuracy: 0.8506
+Batch: 1/1. test loss: 0.1690, test accuracy: 0.8071
+Batch: 110/156. train loss: 0.1118, train accuracy: 0.8521
+Batch: 1/1. test loss: 0.1379, test accuracy: 0.8078
+Batch: 120/156. train loss: 0.1072, train accuracy: 0.8566
+Batch: 1/1. test loss: 0.1761, test accuracy: 0.8055
+Batch: 130/156. train loss: 0.1072, train accuracy: 0.8562
+Batch: 1/1. test loss: 0.1382, test accuracy: 0.8222
+Batch: 140/156. train loss: 0.1112, train accuracy: 0.8710
+Batch: 1/1. test loss: 0.1301, test accuracy: 0.8177
+Batch: 150/156. train loss: 0.1066, train accuracy: 0.8643
+Batch: 1/1. test loss: 0.1295, test accuracy: 0.8151
+Epoch: 25. Epoch loss: 16.5128
+Prediction on validation set...
+Prediction accuracy: 0.8126
+Shuffling train data...
+Batch: 10/156. train loss: 0.1042, train accuracy: 0.8750
+Batch: 1/1. test loss: 0.1359, test accuracy: 0.8054
+Batch: 20/156. train loss: 0.0989, train accuracy: 0.8681
+Batch: 1/1. test loss: 0.1615, test accuracy: 0.8025
+Batch: 30/156. train loss: 0.1117, train accuracy: 0.8697
+Batch: 1/1. test loss: 0.1283, test accuracy: 0.8308
+Batch: 40/156. train loss: 0.0886, train accuracy: 0.8660
+Batch: 1/1. test loss: 0.1411, test accuracy: 0.8198
+Batch: 50/156. train loss: 0.1164, train accuracy: 0.8469
+Batch: 1/1. test loss: 0.1474, test accuracy: 0.8040
+Batch: 60/156. train loss: 0.1276, train accuracy: 0.8447
+Batch: 1/1. test loss: 0.1267, test accuracy: 0.8252
+Batch: 70/156. train loss: 0.0991, train accuracy: 0.8660
+Batch: 1/1. test loss: 0.1168, test accuracy: 0.8235
+Batch: 80/156. train loss: 0.1172, train accuracy: 0.8502
+Batch: 1/1. test loss: 0.1490, test accuracy: 0.8068
+Batch: 90/156. train loss: 0.1140, train accuracy: 0.8585
+Batch: 1/1. test loss: 0.1332, test accuracy: 0.8084
+Batch: 100/156. train loss: 0.1082, train accuracy: 0.8648
+Batch: 1/1. test loss: 0.1206, test accuracy: 0.8276
+Batch: 110/156. train loss: 0.0957, train accuracy: 0.8614
+Batch: 1/1. test loss: 0.1206, test accuracy: 0.8110
+Batch: 120/156. train loss: 0.0968, train accuracy: 0.8575
+Batch: 1/1. test loss: 0.1350, test accuracy: 0.8045
+Batch: 130/156. train loss: 0.1134, train accuracy: 0.8528
+Batch: 1/1. test loss: 0.1513, test accuracy: 0.8087
+Batch: 140/156. train loss: 0.0869, train accuracy: 0.8785
+Batch: 1/1. test loss: 0.1054, test accuracy: 0.8362
+Batch: 150/156. train loss: 0.0940, train accuracy: 0.8632
+Batch: 1/1. test loss: 0.1674, test accuracy: 0.7997
+Epoch: 26. Epoch loss: 16.2225
+Prediction on validation set...
+Prediction accuracy: 0.8146
+Shuffling train data...
+Batch: 10/156. train loss: 0.0915, train accuracy: 0.8678
+Batch: 1/1. test loss: 0.1363, test accuracy: 0.8042
+Batch: 20/156. train loss: 0.1085, train accuracy: 0.8675
+Batch: 1/1. test loss: 0.1350, test accuracy: 0.8167
+Batch: 30/156. train loss: 0.0891, train accuracy: 0.8519
+Batch: 1/1. test loss: 0.1305, test accuracy: 0.8064
+Batch: 40/156. train loss: 0.1006, train accuracy: 0.8656
+Batch: 1/1. test loss: 0.1438, test accuracy: 0.8061
+Batch: 50/156. train loss: 0.1108, train accuracy: 0.8775
+Batch: 1/1. test loss: 0.1671, test accuracy: 0.7972
+Batch: 60/156. train loss: 0.1075, train accuracy: 0.8630
+Batch: 1/1. test loss: 0.1614, test accuracy: 0.8131
+Batch: 70/156. train loss: 0.1009, train accuracy: 0.8611
+Batch: 1/1. test loss: 0.1335, test accuracy: 0.8160
+Batch: 80/156. train loss: 0.1037, train accuracy: 0.8650
+Batch: 1/1. test loss: 0.1463, test accuracy: 0.8249
+Batch: 90/156. train loss: 0.1074, train accuracy: 0.8551
+Batch: 1/1. test loss: 0.1743, test accuracy: 0.8028
+Batch: 100/156. train loss: 0.0896, train accuracy: 0.8683
+Batch: 1/1. test loss: 0.1314, test accuracy: 0.8119
+Batch: 110/156. train loss: 0.1129, train accuracy: 0.8318
+Batch: 1/1. test loss: 0.1319, test accuracy: 0.8148
+Batch: 120/156. train loss: 0.1107, train accuracy: 0.8682
+Batch: 1/1. test loss: 0.1741, test accuracy: 0.8164
+Batch: 130/156. train loss: 0.1218, train accuracy: 0.8572
+Batch: 1/1. test loss: 0.1687, test accuracy: 0.7948
+Batch: 140/156. train loss: 0.0926, train accuracy: 0.8586
+Batch: 1/1. test loss: 0.1346, test accuracy: 0.8076
+Batch: 150/156. train loss: 0.1214, train accuracy: 0.8414
+Batch: 1/1. test loss: 0.1208, test accuracy: 0.8081
+Epoch: 27. Epoch loss: 16.0772
+Prediction on validation set...
+Prediction accuracy: 0.8118
+Shuffling train data...
+Batch: 10/156. train loss: 0.0961, train accuracy: 0.8639
+Batch: 1/1. test loss: 0.1226, test accuracy: 0.8200
+Batch: 20/156. train loss: 0.1070, train accuracy: 0.8767
+Batch: 1/1. test loss: 0.1229, test accuracy: 0.8159
+Batch: 30/156. train loss: 0.1029, train accuracy: 0.8683
+Batch: 1/1. test loss: 0.1366, test accuracy: 0.8173
+Batch: 40/156. train loss: 0.1105, train accuracy: 0.8715
+Batch: 1/1. test loss: 0.1615, test accuracy: 0.8081
+Batch: 50/156. train loss: 0.0962, train accuracy: 0.8555
+Batch: 1/1. test loss: 0.1580, test accuracy: 0.8027
+Batch: 60/156. train loss: 0.1008, train accuracy: 0.8648
+Batch: 1/1. test loss: 0.1615, test accuracy: 0.8109
+Batch: 70/156. train loss: 0.0928, train accuracy: 0.8701
+Batch: 1/1. test loss: 0.1294, test accuracy: 0.8192
+Batch: 80/156. train loss: 0.1073, train accuracy: 0.8552
+Batch: 1/1. test loss: 0.1468, test accuracy: 0.8292
+Batch: 90/156. train loss: 0.1030, train accuracy: 0.8743
+Batch: 1/1. test loss: 0.1572, test accuracy: 0.8025
+Batch: 100/156. train loss: 0.0836, train accuracy: 0.8715
+Batch: 1/1. test loss: 0.1448, test accuracy: 0.8166
+Batch: 110/156. train loss: 0.1008, train accuracy: 0.8626
+Batch: 1/1. test loss: 0.1244, test accuracy: 0.8258
+Batch: 120/156. train loss: 0.1094, train accuracy: 0.8648
+Batch: 1/1. test loss: 0.1606, test accuracy: 0.8015
+Batch: 130/156. train loss: 0.1251, train accuracy: 0.8591
+Batch: 1/1. test loss: 0.1232, test accuracy: 0.8319
+Batch: 140/156. train loss: 0.1065, train accuracy: 0.8646
+Batch: 1/1. test loss: 0.1637, test accuracy: 0.8109
+Batch: 150/156. train loss: 0.0884, train accuracy: 0.8761
+Batch: 1/1. test loss: 0.1228, test accuracy: 0.8238
+Epoch: 28. Epoch loss: 15.9222
+Prediction on validation set...
+Prediction accuracy: 0.8106
+Shuffling train data...
+Batch: 10/156. train loss: 0.0940, train accuracy: 0.8802
+Batch: 1/1. test loss: 0.1598, test accuracy: 0.8081
+Batch: 20/156. train loss: 0.0980, train accuracy: 0.8729
+Batch: 1/1. test loss: 0.1589, test accuracy: 0.7992
+Batch: 30/156. train loss: 0.1072, train accuracy: 0.8740
+Batch: 1/1. test loss: 0.1698, test accuracy: 0.7991
+Batch: 40/156. train loss: 0.0947, train accuracy: 0.8659
+Batch: 1/1. test loss: 0.1088, test accuracy: 0.8234
+Batch: 50/156. train loss: 0.0982, train accuracy: 0.8732
+Batch: 1/1. test loss: 0.1299, test accuracy: 0.8118
+Batch: 60/156. train loss: 0.1059, train accuracy: 0.8612
+Batch: 1/1. test loss: 0.1419, test accuracy: 0.8022
+Batch: 70/156. train loss: 0.0919, train accuracy: 0.8638
+Batch: 1/1. test loss: 0.1640, test accuracy: 0.8099
+Batch: 80/156. train loss: 0.1004, train accuracy: 0.8726
+Batch: 1/1. test loss: 0.1582, test accuracy: 0.8266
+Batch: 90/156. train loss: 0.0953, train accuracy: 0.8657
+Batch: 1/1. test loss: 0.1635, test accuracy: 0.8171
+Batch: 100/156. train loss: 0.1010, train accuracy: 0.8830
+Batch: 1/1. test loss: 0.1576, test accuracy: 0.8058
+Batch: 110/156. train loss: 0.1088, train accuracy: 0.8647
+Batch: 1/1. test loss: 0.1516, test accuracy: 0.8240
+Batch: 120/156. train loss: 0.1186, train accuracy: 0.8439
+Batch: 1/1. test loss: 0.1506, test accuracy: 0.8157
+Batch: 130/156. train loss: 0.1015, train accuracy: 0.8608
+Batch: 1/1. test loss: 0.1475, test accuracy: 0.8204
+Batch: 140/156. train loss: 0.0995, train accuracy: 0.8552
+Batch: 1/1. test loss: 0.1464, test accuracy: 0.8017
+Batch: 150/156. train loss: 0.1125, train accuracy: 0.8501
+Batch: 1/1. test loss: 0.1359, test accuracy: 0.8299
+Epoch: 29. Epoch loss: 15.8475
+Prediction on validation set...
+Prediction accuracy: 0.8111
+Shuffling train data...
+Batch: 10/156. train loss: 0.1115, train accuracy: 0.8669
+Batch: 1/1. test loss: 0.1463, test accuracy: 0.7982
+Batch: 20/156. train loss: 0.1003, train accuracy: 0.8640
+Batch: 1/1. test loss: 0.1295, test accuracy: 0.8051
+Batch: 30/156. train loss: 0.1014, train accuracy: 0.8679
+Batch: 1/1. test loss: 0.1691, test accuracy: 0.7994
+Batch: 40/156. train loss: 0.1057, train accuracy: 0.8719
+Batch: 1/1. test loss: 0.1504, test accuracy: 0.8070
+Batch: 50/156. train loss: 0.1020, train accuracy: 0.8615
+Batch: 1/1. test loss: 0.1419, test accuracy: 0.8086
+Batch: 60/156. train loss: 0.0780, train accuracy: 0.8711
+Batch: 1/1. test loss: 0.1644, test accuracy: 0.7972
+Batch: 70/156. train loss: 0.1122, train accuracy: 0.8572
+Batch: 1/1. test loss: 0.1619, test accuracy: 0.7994
+Batch: 80/156. train loss: 0.1202, train accuracy: 0.8574
+Batch: 1/1. test loss: 0.1531, test accuracy: 0.8153
+Batch: 90/156. train loss: 0.1031, train accuracy: 0.8532
+Batch: 1/1. test loss: 0.2038, test accuracy: 0.7840
+Batch: 100/156. train loss: 0.0875, train accuracy: 0.8646
+Batch: 1/1. test loss: 0.1460, test accuracy: 0.8100
+Batch: 110/156. train loss: 0.0995, train accuracy: 0.8563
+Batch: 1/1. test loss: 0.1442, test accuracy: 0.8187
+Batch: 120/156. train loss: 0.1001, train accuracy: 0.8573
+Batch: 1/1. test loss: 0.1840, test accuracy: 0.7970
+Batch: 130/156. train loss: 0.0921, train accuracy: 0.8602
+Batch: 1/1. test loss: 0.1390, test accuracy: 0.8137
+Batch: 140/156. train loss: 0.1040, train accuracy: 0.8646
+Batch: 1/1. test loss: 0.1492, test accuracy: 0.8010
+Batch: 150/156. train loss: 0.1030, train accuracy: 0.8733
+Batch: 1/1. test loss: 0.1358, test accuracy: 0.8143
+Epoch: 30. Epoch loss: 15.8628
+Prediction on validation set...
+Prediction accuracy: 0.8125
+Shuffling train data...
+Batch: 10/156. train loss: 0.0905, train accuracy: 0.8716
+Batch: 1/1. test loss: 0.1399, test accuracy: 0.8070
+Batch: 20/156. train loss: 0.0926, train accuracy: 0.8849
+Batch: 1/1. test loss: 0.1646, test accuracy: 0.8244
+Batch: 30/156. train loss: 0.1001, train accuracy: 0.8767
+Batch: 1/1. test loss: 0.1461, test accuracy: 0.8173
+Batch: 40/156. train loss: 0.1232, train accuracy: 0.8460
+Batch: 1/1. test loss: 0.1671, test accuracy: 0.8108
+Batch: 50/156. train loss: 0.1114, train accuracy: 0.8576
+Batch: 1/1. test loss: 0.1393, test accuracy: 0.8126
+Batch: 60/156. train loss: 0.1120, train accuracy: 0.8753
+Batch: 1/1. test loss: 0.1264, test accuracy: 0.8019
+Batch: 70/156. train loss: 0.0819, train accuracy: 0.8785
+Batch: 1/1. test loss: 0.1021, test accuracy: 0.8358
+Batch: 80/156. train loss: 0.1146, train accuracy: 0.8659
+Batch: 1/1. test loss: 0.1237, test accuracy: 0.8194
+Batch: 90/156. train loss: 0.1075, train accuracy: 0.8717
+Batch: 1/1. test loss: 0.1195, test accuracy: 0.8098
+Batch: 100/156. train loss: 0.1146, train accuracy: 0.8576
+Batch: 1/1. test loss: 0.1249, test accuracy: 0.8165
+Batch: 110/156. train loss: 0.0940, train accuracy: 0.8767
+Batch: 1/1. test loss: 0.1409, test accuracy: 0.8030
+Batch: 120/156. train loss: 0.0943, train accuracy: 0.8600
+Batch: 1/1. test loss: 0.1854, test accuracy: 0.7825
+Batch: 130/156. train loss: 0.1120, train accuracy: 0.8682
+Batch: 1/1. test loss: 0.1304, test accuracy: 0.8320
+Batch: 140/156. train loss: 0.0920, train accuracy: 0.8527
+Batch: 1/1. test loss: 0.1472, test accuracy: 0.7938
+Batch: 150/156. train loss: 0.0971, train accuracy: 0.8661
+Batch: 1/1. test loss: 0.1196, test accuracy: 0.8168
+Epoch: 31. Epoch loss: 15.5572
+Prediction on validation set...
+Prediction accuracy: 0.8130
+Shuffling train data...
+Batch: 10/156. train loss: 0.0914, train accuracy: 0.8866
+Batch: 1/1. test loss: 0.1619, test accuracy: 0.8033
+Batch: 20/156. train loss: 0.1017, train accuracy: 0.8611
+Batch: 1/1. test loss: 0.1434, test accuracy: 0.8106
+Batch: 30/156. train loss: 0.1048, train accuracy: 0.8752
+Batch: 1/1. test loss: 0.1350, test accuracy: 0.8124
+Batch: 40/156. train loss: 0.1094, train accuracy: 0.8618
+Batch: 1/1. test loss: 0.1955, test accuracy: 0.7824
+Batch: 50/156. train loss: 0.1258, train accuracy: 0.8605
+Batch: 1/1. test loss: 0.1390, test accuracy: 0.8149
+Batch: 60/156. train loss: 0.0963, train accuracy: 0.8764
+Batch: 1/1. test loss: 0.1499, test accuracy: 0.8013
+Batch: 70/156. train loss: 0.0851, train accuracy: 0.8779
+Batch: 1/1. test loss: 0.1443, test accuracy: 0.8198
+Batch: 80/156. train loss: 0.1190, train accuracy: 0.8790
+Batch: 1/1. test loss: 0.1366, test accuracy: 0.8078
+Batch: 90/156. train loss: 0.1106, train accuracy: 0.8704
+Batch: 1/1. test loss: 0.1926, test accuracy: 0.7861
+Batch: 100/156. train loss: 0.1090, train accuracy: 0.8665
+Batch: 1/1. test loss: 0.1401, test accuracy: 0.8155
+Batch: 110/156. train loss: 0.0851, train accuracy: 0.8689
+Batch: 1/1. test loss: 0.1272, test accuracy: 0.8087
+Batch: 120/156. train loss: 0.0861, train accuracy: 0.8634
+Batch: 1/1. test loss: 0.1241, test accuracy: 0.8238
+Batch: 130/156. train loss: 0.1038, train accuracy: 0.8609
+Batch: 1/1. test loss: 0.1091, test accuracy: 0.8090
+Batch: 140/156. train loss: 0.1059, train accuracy: 0.8597
+Batch: 1/1. test loss: 0.1480, test accuracy: 0.8101
+Batch: 150/156. train loss: 0.0949, train accuracy: 0.8764
+Batch: 1/1. test loss: 0.1484, test accuracy: 0.8187
+Epoch: 32. Epoch loss: 15.5008
+Prediction on validation set...
+Prediction accuracy: 0.8095
+Shuffling train data...
+Batch: 10/156. train loss: 0.0815, train accuracy: 0.8840
+Batch: 1/1. test loss: 0.1193, test accuracy: 0.8136
+Batch: 20/156. train loss: 0.1179, train accuracy: 0.8611
+Batch: 1/1. test loss: 0.1307, test accuracy: 0.8044
+Batch: 30/156. train loss: 0.0893, train accuracy: 0.8795
+Batch: 1/1. test loss: 0.1149, test accuracy: 0.8225
+Batch: 40/156. train loss: 0.0999, train accuracy: 0.8687
+Batch: 1/1. test loss: 0.1655, test accuracy: 0.8042
+Batch: 50/156. train loss: 0.0885, train accuracy: 0.8781
+Batch: 1/1. test loss: 0.1341, test accuracy: 0.8145
+Batch: 60/156. train loss: 0.0773, train accuracy: 0.8662
+Batch: 1/1. test loss: 0.1477, test accuracy: 0.7940
+Batch: 70/156. train loss: 0.1075, train accuracy: 0.8720
+Batch: 1/1. test loss: 0.1709, test accuracy: 0.7854
+Batch: 80/156. train loss: 0.0990, train accuracy: 0.8508
+Batch: 1/1. test loss: 0.1624, test accuracy: 0.8031
+Batch: 90/156. train loss: 0.1014, train accuracy: 0.8732
+Batch: 1/1. test loss: 0.1548, test accuracy: 0.8078
+Batch: 100/156. train loss: 0.1037, train accuracy: 0.8579
+Batch: 1/1. test loss: 0.1333, test accuracy: 0.8030
+Batch: 110/156. train loss: 0.1015, train accuracy: 0.8575
+Batch: 1/1. test loss: 0.1410, test accuracy: 0.8032
+Batch: 120/156. train loss: 0.0984, train accuracy: 0.8679
+Batch: 1/1. test loss: 0.1514, test accuracy: 0.8203
+Batch: 130/156. train loss: 0.1196, train accuracy: 0.8604
+Batch: 1/1. test loss: 0.1145, test accuracy: 0.8174
+Batch: 140/156. train loss: 0.0987, train accuracy: 0.8694
+Batch: 1/1. test loss: 0.1617, test accuracy: 0.7993
+Batch: 150/156. train loss: 0.1234, train accuracy: 0.8595
+Batch: 1/1. test loss: 0.1519, test accuracy: 0.8255
+Epoch: 33. Epoch loss: 15.3597
+Prediction on validation set...
+Prediction accuracy: 0.8097
+Shuffling train data...
+Batch: 10/156. train loss: 0.0917, train accuracy: 0.8652
+Batch: 1/1. test loss: 0.1591, test accuracy: 0.8161
+Batch: 20/156. train loss: 0.0967, train accuracy: 0.8768
+Batch: 1/1. test loss: 0.1706, test accuracy: 0.8211
+Batch: 30/156. train loss: 0.1045, train accuracy: 0.8575
+Batch: 1/1. test loss: 0.1508, test accuracy: 0.8045
+Batch: 40/156. train loss: 0.0987, train accuracy: 0.8687
+Batch: 1/1. test loss: 0.1056, test accuracy: 0.8446
+Batch: 50/156. train loss: 0.0929, train accuracy: 0.8609
+Batch: 1/1. test loss: 0.1692, test accuracy: 0.8067
+Batch: 60/156. train loss: 0.0862, train accuracy: 0.8790
+Batch: 1/1. test loss: 0.1810, test accuracy: 0.8073
+Batch: 70/156. train loss: 0.1199, train accuracy: 0.8474
+Batch: 1/1. test loss: 0.1326, test accuracy: 0.8234
+Batch: 80/156. train loss: 0.1106, train accuracy: 0.8612
+Batch: 1/1. test loss: 0.1561, test accuracy: 0.7920
+Batch: 90/156. train loss: 0.1204, train accuracy: 0.8555
+Batch: 1/1. test loss: 0.1676, test accuracy: 0.8114
+Batch: 100/156. train loss: 0.1106, train accuracy: 0.8679
+Batch: 1/1. test loss: 0.1505, test accuracy: 0.7960
+Batch: 110/156. train loss: 0.0836, train accuracy: 0.8685
+Batch: 1/1. test loss: 0.1439, test accuracy: 0.8141
+Batch: 120/156. train loss: 0.1095, train accuracy: 0.8681
+Batch: 1/1. test loss: 0.1601, test accuracy: 0.7988
+Batch: 130/156. train loss: 0.1211, train accuracy: 0.8710
+Batch: 1/1. test loss: 0.1341, test accuracy: 0.8157
+Batch: 140/156. train loss: 0.1257, train accuracy: 0.8617
+Batch: 1/1. test loss: 0.1493, test accuracy: 0.8264
+Batch: 150/156. train loss: 0.0989, train accuracy: 0.8600
+Batch: 1/1. test loss: 0.1564, test accuracy: 0.8046
+Epoch: 34. Epoch loss: 15.3157
+Prediction on validation set...
+Prediction accuracy: 0.8121
+Shuffling train data...
+Batch: 10/156. train loss: 0.0899, train accuracy: 0.8689
+Batch: 1/1. test loss: 0.1436, test accuracy: 0.8203
+Batch: 20/156. train loss: 0.1015, train accuracy: 0.8709
+Batch: 1/1. test loss: 0.1524, test accuracy: 0.8119
+Batch: 30/156. train loss: 0.0889, train accuracy: 0.8784
+Batch: 1/1. test loss: 0.1883, test accuracy: 0.7916
+Batch: 40/156. train loss: 0.0877, train accuracy: 0.8715
+Batch: 1/1. test loss: 0.1464, test accuracy: 0.8134
+Batch: 50/156. train loss: 0.0933, train accuracy: 0.8752
+Batch: 1/1. test loss: 0.1560, test accuracy: 0.8054
+Batch: 60/156. train loss: 0.0791, train accuracy: 0.8798
+Batch: 1/1. test loss: 0.1422, test accuracy: 0.7994
+Batch: 70/156. train loss: 0.0985, train accuracy: 0.8655
+Batch: 1/1. test loss: 0.1780, test accuracy: 0.8049
+Batch: 80/156. train loss: 0.1248, train accuracy: 0.8677
+Batch: 1/1. test loss: 0.1375, test accuracy: 0.8267
+Batch: 90/156. train loss: 0.0873, train accuracy: 0.8762
+Batch: 1/1. test loss: 0.1495, test accuracy: 0.7955
+Batch: 100/156. train loss: 0.0680, train accuracy: 0.8855
+Batch: 1/1. test loss: 0.1385, test accuracy: 0.7912
+Batch: 110/156. train loss: 0.0891, train accuracy: 0.8772
+Batch: 1/1. test loss: 0.1386, test accuracy: 0.8170
+Batch: 120/156. train loss: 0.1188, train accuracy: 0.8652
+Batch: 1/1. test loss: 0.1335, test accuracy: 0.8235
+Batch: 130/156. train loss: 0.1063, train accuracy: 0.8731
+Batch: 1/1. test loss: 0.1770, test accuracy: 0.8253
+Batch: 140/156. train loss: 0.1162, train accuracy: 0.8479
+Batch: 1/1. test loss: 0.1405, test accuracy: 0.8100
+Batch: 150/156. train loss: 0.1096, train accuracy: 0.8745
+Batch: 1/1. test loss: 0.1805, test accuracy: 0.7975
+Epoch: 35. Epoch loss: 15.1880
+Prediction on validation set...
+Prediction accuracy: 0.8083
+Shuffling train data...
+Batch: 10/156. train loss: 0.1043, train accuracy: 0.8786
+Batch: 1/1. test loss: 0.1774, test accuracy: 0.8001
+Batch: 20/156. train loss: 0.0787, train accuracy: 0.8807
+Batch: 1/1. test loss: 0.1411, test accuracy: 0.8136
+Batch: 30/156. train loss: 0.0976, train accuracy: 0.8852
+Batch: 1/1. test loss: 0.1722, test accuracy: 0.8004
+Batch: 40/156. train loss: 0.0989, train accuracy: 0.8750
+Batch: 1/1. test loss: 0.1531, test accuracy: 0.8019
+Batch: 50/156. train loss: 0.1001, train accuracy: 0.8731
+Batch: 1/1. test loss: 0.1682, test accuracy: 0.8084
+Batch: 60/156. train loss: 0.0948, train accuracy: 0.8798
+Batch: 1/1. test loss: 0.1414, test accuracy: 0.7988
+Batch: 70/156. train loss: 0.1296, train accuracy: 0.8658
+Batch: 1/1. test loss: 0.1507, test accuracy: 0.8053
+Batch: 80/156. train loss: 0.0949, train accuracy: 0.8742
+Batch: 1/1. test loss: 0.1418, test accuracy: 0.8146
+Batch: 90/156. train loss: 0.0937, train accuracy: 0.8777
+Batch: 1/1. test loss: 0.1548, test accuracy: 0.8124
+Batch: 100/156. train loss: 0.0918, train accuracy: 0.8835
+Batch: 1/1. test loss: 0.1515, test accuracy: 0.8216
+Batch: 110/156. train loss: 0.1013, train accuracy: 0.8654
+Batch: 1/1. test loss: 0.1688, test accuracy: 0.8009
+Batch: 120/156. train loss: 0.1022, train accuracy: 0.8623
+Batch: 1/1. test loss: 0.1942, test accuracy: 0.7999
+Batch: 130/156. train loss: 0.1057, train accuracy: 0.8774
+Batch: 1/1. test loss: 0.1708, test accuracy: 0.7981
+Batch: 140/156. train loss: 0.0908, train accuracy: 0.8650
+Batch: 1/1. test loss: 0.1455, test accuracy: 0.8151
+Batch: 150/156. train loss: 0.0804, train accuracy: 0.8815
+Batch: 1/1. test loss: 0.1571, test accuracy: 0.7897
+Epoch: 36. Epoch loss: 15.1210
+Prediction on validation set...
+Prediction accuracy: 0.8085
+Shuffling train data...
+Batch: 10/156. train loss: 0.0897, train accuracy: 0.8834
+Batch: 1/1. test loss: 0.1848, test accuracy: 0.7938
+Batch: 20/156. train loss: 0.0857, train accuracy: 0.8792
+Batch: 1/1. test loss: 0.1571, test accuracy: 0.8067
+Batch: 30/156. train loss: 0.1001, train accuracy: 0.8895
+Batch: 1/1. test loss: 0.1702, test accuracy: 0.8024
+Batch: 40/156. train loss: 0.1006, train accuracy: 0.8754
+Batch: 1/1. test loss: 0.1532, test accuracy: 0.8058
+Batch: 50/156. train loss: 0.0984, train accuracy: 0.8733
+Batch: 1/1. test loss: 0.1245, test accuracy: 0.8102
+Batch: 60/156. train loss: 0.1092, train accuracy: 0.8750
+Batch: 1/1. test loss: 0.1429, test accuracy: 0.8005
+Batch: 70/156. train loss: 0.0876, train accuracy: 0.8809
+Batch: 1/1. test loss: 0.1590, test accuracy: 0.8112
+Batch: 80/156. train loss: 0.0976, train accuracy: 0.8773
+Batch: 1/1. test loss: 0.1301, test accuracy: 0.8134
+Batch: 90/156. train loss: 0.0688, train accuracy: 0.8921
+Batch: 1/1. test loss: 0.1623, test accuracy: 0.7998
+Batch: 100/156. train loss: 0.0975, train accuracy: 0.8726
+Batch: 1/1. test loss: 0.1356, test accuracy: 0.8250
+Batch: 110/156. train loss: 0.1071, train accuracy: 0.8663
+Batch: 1/1. test loss: 0.1368, test accuracy: 0.8097
+Batch: 120/156. train loss: 0.0880, train accuracy: 0.8792
+Batch: 1/1. test loss: 0.1686, test accuracy: 0.8068
+Batch: 130/156. train loss: 0.1078, train accuracy: 0.8588
+Batch: 1/1. test loss: 0.1534, test accuracy: 0.7956
+Batch: 140/156. train loss: 0.1034, train accuracy: 0.8736
+Batch: 1/1. test loss: 0.1765, test accuracy: 0.8006
+Batch: 150/156. train loss: 0.1017, train accuracy: 0.8547
+Batch: 1/1. test loss: 0.1550, test accuracy: 0.8107
+Epoch: 37. Epoch loss: 14.9802
+Prediction on validation set...
+Prediction accuracy: 0.8074
+Shuffling train data...
+Batch: 10/156. train loss: 0.1189, train accuracy: 0.8609
+Batch: 1/1. test loss: 0.1607, test accuracy: 0.8036
+Batch: 20/156. train loss: 0.0967, train accuracy: 0.8787
+Batch: 1/1. test loss: 0.1604, test accuracy: 0.8120
+Batch: 30/156. train loss: 0.0995, train accuracy: 0.8734
+Batch: 1/1. test loss: 0.1487, test accuracy: 0.8122
+Batch: 40/156. train loss: 0.0813, train accuracy: 0.8809
+Batch: 1/1. test loss: 0.1325, test accuracy: 0.8127
+Batch: 50/156. train loss: 0.0853, train accuracy: 0.8820
+Batch: 1/1. test loss: 0.1772, test accuracy: 0.7977
+Batch: 60/156. train loss: 0.1192, train accuracy: 0.8645
+Batch: 1/1. test loss: 0.1794, test accuracy: 0.7873
+Batch: 70/156. train loss: 0.0965, train accuracy: 0.8806
+Batch: 1/1. test loss: 0.1645, test accuracy: 0.7941
+Batch: 80/156. train loss: 0.1020, train accuracy: 0.8832
+Batch: 1/1. test loss: 0.1546, test accuracy: 0.7950
+Batch: 90/156. train loss: 0.1012, train accuracy: 0.8767
+Batch: 1/1. test loss: 0.1212, test accuracy: 0.8227
+Batch: 100/156. train loss: 0.0972, train accuracy: 0.8532
+Batch: 1/1. test loss: 0.1491, test accuracy: 0.7936
+Batch: 110/156. train loss: 0.1089, train accuracy: 0.8609
+Batch: 1/1. test loss: 0.1587, test accuracy: 0.8137
+Batch: 120/156. train loss: 0.0985, train accuracy: 0.8755
+Batch: 1/1. test loss: 0.1306, test accuracy: 0.8088
+Batch: 130/156. train loss: 0.0981, train accuracy: 0.8795
+Batch: 1/1. test loss: 0.1794, test accuracy: 0.7953
+Batch: 140/156. train loss: 0.0862, train accuracy: 0.8680
+Batch: 1/1. test loss: 0.1299, test accuracy: 0.8203
+Batch: 150/156. train loss: 0.0926, train accuracy: 0.8739
+Batch: 1/1. test loss: 0.1662, test accuracy: 0.7950
+Epoch: 38. Epoch loss: 14.8894
+Prediction on validation set...
+Prediction accuracy: 0.8080
+Shuffling train data...
+Batch: 10/156. train loss: 0.0785, train accuracy: 0.8899
+Batch: 1/1. test loss: 0.1471, test accuracy: 0.8219
+Batch: 20/156. train loss: 0.0791, train accuracy: 0.8713
+Batch: 1/1. test loss: 0.1607, test accuracy: 0.8149
+Batch: 30/156. train loss: 0.0823, train accuracy: 0.8794
+Batch: 1/1. test loss: 0.1953, test accuracy: 0.7905
+Batch: 40/156. train loss: 0.0856, train accuracy: 0.8814
+Batch: 1/1. test loss: 0.1741, test accuracy: 0.8050
+Batch: 50/156. train loss: 0.0775, train accuracy: 0.8923
+Batch: 1/1. test loss: 0.1890, test accuracy: 0.8011
+Batch: 60/156. train loss: 0.1231, train accuracy: 0.8756
+Batch: 1/1. test loss: 0.1899, test accuracy: 0.7882
+Batch: 70/156. train loss: 0.1116, train accuracy: 0.8685
+Batch: 1/1. test loss: 0.1616, test accuracy: 0.8036
+Batch: 80/156. train loss: 0.0779, train accuracy: 0.8724
+Batch: 1/1. test loss: 0.1494, test accuracy: 0.8040
+Batch: 90/156. train loss: 0.0951, train accuracy: 0.8768
+Batch: 1/1. test loss: 0.1178, test accuracy: 0.8336
+Batch: 100/156. train loss: 0.0908, train accuracy: 0.8830
+Batch: 1/1. test loss: 0.1540, test accuracy: 0.8179
+Batch: 110/156. train loss: 0.1255, train accuracy: 0.8644
+Batch: 1/1. test loss: 0.1444, test accuracy: 0.8083
+Batch: 120/156. train loss: 0.1285, train accuracy: 0.8621
+Batch: 1/1. test loss: 0.1428, test accuracy: 0.8178
+Batch: 130/156. train loss: 0.0842, train accuracy: 0.8748
+Batch: 1/1. test loss: 0.1537, test accuracy: 0.7997
+Batch: 140/156. train loss: 0.0886, train accuracy: 0.8773
+Batch: 1/1. test loss: 0.1626, test accuracy: 0.8029
+Batch: 150/156. train loss: 0.1134, train accuracy: 0.8556
+Batch: 1/1. test loss: 0.1420, test accuracy: 0.8223
+Epoch: 39. Epoch loss: 14.7293
+Prediction on validation set...
+Prediction accuracy: 0.8078
+Shuffling train data...
+Batch: 10/156. train loss: 0.0831, train accuracy: 0.8883
+Batch: 1/1. test loss: 0.1605, test accuracy: 0.8015
+Batch: 20/156. train loss: 0.1050, train accuracy: 0.8793
+Batch: 1/1. test loss: 0.1177, test accuracy: 0.8169
+Batch: 30/156. train loss: 0.0794, train accuracy: 0.8846
+Batch: 1/1. test loss: 0.1607, test accuracy: 0.8113
+Batch: 40/156. train loss: 0.0945, train accuracy: 0.8726
+Batch: 1/1. test loss: 0.1493, test accuracy: 0.8036
+Batch: 50/156. train loss: 0.0919, train accuracy: 0.8652
+Batch: 1/1. test loss: 0.1543, test accuracy: 0.8068
+Batch: 60/156. train loss: 0.1100, train accuracy: 0.8846
+Batch: 1/1. test loss: 0.1312, test accuracy: 0.8338
+Batch: 70/156. train loss: 0.0915, train accuracy: 0.8790
+Batch: 1/1. test loss: 0.1592, test accuracy: 0.7987
+Batch: 80/156. train loss: 0.0741, train accuracy: 0.9026
+Batch: 1/1. test loss: 0.1552, test accuracy: 0.8011
+Batch: 90/156. train loss: 0.0967, train accuracy: 0.8822
+Batch: 1/1. test loss: 0.1246, test accuracy: 0.8118
+Batch: 100/156. train loss: 0.1150, train accuracy: 0.8766
+Batch: 1/1. test loss: 0.1499, test accuracy: 0.8022
+Batch: 110/156. train loss: 0.0956, train accuracy: 0.8690
+Batch: 1/1. test loss: 0.1531, test accuracy: 0.8053
+Batch: 120/156. train loss: 0.1170, train accuracy: 0.8839
+Batch: 1/1. test loss: 0.1372, test accuracy: 0.8146
+Batch: 130/156. train loss: 0.0924, train accuracy: 0.8840
+Batch: 1/1. test loss: 0.1439, test accuracy: 0.8064
+Batch: 140/156. train loss: 0.1010, train accuracy: 0.8767
+Batch: 1/1. test loss: 0.1568, test accuracy: 0.7997
+Batch: 150/156. train loss: 0.1020, train accuracy: 0.8798
+Batch: 1/1. test loss: 0.1421, test accuracy: 0.8141
+Epoch: 40. Epoch loss: 14.8099
+Prediction on validation set...
+Prediction accuracy: 0.8061
+Shuffling train data...
+Batch: 10/156. train loss: 0.1060, train accuracy: 0.8620
+Batch: 1/1. test loss: 0.1744, test accuracy: 0.8046
+Batch: 20/156. train loss: 0.1091, train accuracy: 0.8674
+Batch: 1/1. test loss: 0.2145, test accuracy: 0.7728
+Batch: 30/156. train loss: 0.0643, train accuracy: 0.8824
+Batch: 1/1. test loss: 0.1798, test accuracy: 0.7889
+Batch: 40/156. train loss: 0.0987, train accuracy: 0.8914
+Batch: 1/1. test loss: 0.1643, test accuracy: 0.7954
+Batch: 50/156. train loss: 0.1041, train accuracy: 0.8719
+Batch: 1/1. test loss: 0.1400, test accuracy: 0.8128
+Batch: 60/156. train loss: 0.0991, train accuracy: 0.8831
+Batch: 1/1. test loss: 0.1478, test accuracy: 0.7874
+Batch: 70/156. train loss: 0.0977, train accuracy: 0.8786
+Batch: 1/1. test loss: 0.1427, test accuracy: 0.8055
+Batch: 80/156. train loss: 0.1022, train accuracy: 0.8664
+Batch: 1/1. test loss: 0.1256, test accuracy: 0.8098
+Batch: 90/156. train loss: 0.0945, train accuracy: 0.8639
+Batch: 1/1. test loss: 0.1524, test accuracy: 0.8081
+Batch: 100/156. train loss: 0.0873, train accuracy: 0.8773
+Batch: 1/1. test loss: 0.1240, test accuracy: 0.8107
+Batch: 110/156. train loss: 0.0771, train accuracy: 0.8805
+Batch: 1/1. test loss: 0.1433, test accuracy: 0.8087
+Batch: 120/156. train loss: 0.0983, train accuracy: 0.8763
+Batch: 1/1. test loss: 0.1437, test accuracy: 0.8134
+Batch: 130/156. train loss: 0.0832, train accuracy: 0.8565
+Batch: 1/1. test loss: 0.1461, test accuracy: 0.8163
+Batch: 140/156. train loss: 0.0852, train accuracy: 0.8672
+Batch: 1/1. test loss: 0.1591, test accuracy: 0.8168
+Batch: 150/156. train loss: 0.0948, train accuracy: 0.8566
+Batch: 1/1. test loss: 0.1657, test accuracy: 0.8059
+Epoch: 41. Epoch loss: 14.6811
+Prediction on validation set...
+Prediction accuracy: 0.8065
+Shuffling train data...
+Batch: 10/156. train loss: 0.0814, train accuracy: 0.8797
+Batch: 1/1. test loss: 0.1574, test accuracy: 0.7940
+Batch: 20/156. train loss: 0.1054, train accuracy: 0.8768
+Batch: 1/1. test loss: 0.1554, test accuracy: 0.8039
+Batch: 30/156. train loss: 0.0835, train accuracy: 0.8800
+Batch: 1/1. test loss: 0.1963, test accuracy: 0.7995
+Batch: 40/156. train loss: 0.0756, train accuracy: 0.8919
+Batch: 1/1. test loss: 0.1791, test accuracy: 0.8032
+Batch: 50/156. train loss: 0.0846, train accuracy: 0.8804
+Batch: 1/1. test loss: 0.1917, test accuracy: 0.7961
+Batch: 60/156. train loss: 0.0956, train accuracy: 0.8803
+Batch: 1/1. test loss: 0.1274, test accuracy: 0.8205
+Batch: 70/156. train loss: 0.0805, train accuracy: 0.8993
+Batch: 1/1. test loss: 0.1333, test accuracy: 0.8062
+Batch: 80/156. train loss: 0.1053, train accuracy: 0.8702
+Batch: 1/1. test loss: 0.1365, test accuracy: 0.8150
+Batch: 90/156. train loss: 0.1179, train accuracy: 0.8658
+Batch: 1/1. test loss: 0.1364, test accuracy: 0.8240
+Batch: 100/156. train loss: 0.0892, train accuracy: 0.8760
+Batch: 1/1. test loss: 0.1354, test accuracy: 0.8150
+Batch: 110/156. train loss: 0.0918, train accuracy: 0.8706
+Batch: 1/1. test loss: 0.1523, test accuracy: 0.7982
+Batch: 120/156. train loss: 0.0957, train accuracy: 0.8705
+Batch: 1/1. test loss: 0.1855, test accuracy: 0.7758
+Batch: 130/156. train loss: 0.1138, train accuracy: 0.8621
+Batch: 1/1. test loss: 0.1572, test accuracy: 0.8017
+Batch: 140/156. train loss: 0.0914, train accuracy: 0.8692
+Batch: 1/1. test loss: 0.1395, test accuracy: 0.7982
+Batch: 150/156. train loss: 0.0919, train accuracy: 0.8725
+Batch: 1/1. test loss: 0.1978, test accuracy: 0.8020
+Epoch: 42. Epoch loss: 14.6914
+Prediction on validation set...
+Prediction accuracy: 0.8026
+Shuffling train data...
+Batch: 10/156. train loss: 0.0895, train accuracy: 0.8856
+Batch: 1/1. test loss: 0.1654, test accuracy: 0.7865
+Batch: 20/156. train loss: 0.0710, train accuracy: 0.9012
+Batch: 1/1. test loss: 0.1337, test accuracy: 0.8252
+Batch: 30/156. train loss: 0.0879, train accuracy: 0.8864
+Batch: 1/1. test loss: 0.1381, test accuracy: 0.8065
+Batch: 40/156. train loss: 0.0793, train accuracy: 0.8815
+Batch: 1/1. test loss: 0.1673, test accuracy: 0.8174
+Batch: 50/156. train loss: 0.0854, train accuracy: 0.8773
+Batch: 1/1. test loss: 0.1858, test accuracy: 0.8058
+Batch: 60/156. train loss: 0.0944, train accuracy: 0.8774
+Batch: 1/1. test loss: 0.1470, test accuracy: 0.8232
+Batch: 70/156. train loss: 0.1018, train accuracy: 0.8867
+Batch: 1/1. test loss: 0.1950, test accuracy: 0.7968
+Batch: 80/156. train loss: 0.1068, train accuracy: 0.8599
+Batch: 1/1. test loss: 0.1375, test accuracy: 0.8306
+Batch: 90/156. train loss: 0.1051, train accuracy: 0.8688
+Batch: 1/1. test loss: 0.1562, test accuracy: 0.8068
+Batch: 100/156. train loss: 0.0976, train accuracy: 0.8658
+Batch: 1/1. test loss: 0.1612, test accuracy: 0.8044
+Batch: 110/156. train loss: 0.0950, train accuracy: 0.8860
+Batch: 1/1. test loss: 0.1738, test accuracy: 0.7976
+Batch: 120/156. train loss: 0.0875, train accuracy: 0.8678
+Batch: 1/1. test loss: 0.1385, test accuracy: 0.7853
+Batch: 130/156. train loss: 0.0868, train accuracy: 0.8704
+Batch: 1/1. test loss: 0.1607, test accuracy: 0.8150
+Batch: 140/156. train loss: 0.1109, train accuracy: 0.8641
+Batch: 1/1. test loss: 0.1520, test accuracy: 0.8018
+Batch: 150/156. train loss: 0.1114, train accuracy: 0.8714
+Batch: 1/1. test loss: 0.1562, test accuracy: 0.7832
+Epoch: 43. Epoch loss: 14.5554
+Prediction on validation set...
+Prediction accuracy: 0.8069
+Shuffling train data...
+Batch: 10/156. train loss: 0.0836, train accuracy: 0.8735
+Batch: 1/1. test loss: 0.1623, test accuracy: 0.8005
+Batch: 20/156. train loss: 0.0715, train accuracy: 0.8815
+Batch: 1/1. test loss: 0.1310, test accuracy: 0.7912
+Batch: 30/156. train loss: 0.0841, train accuracy: 0.8934
+Batch: 1/1. test loss: 0.1710, test accuracy: 0.8096
+Batch: 40/156. train loss: 0.0842, train accuracy: 0.8640
+Batch: 1/1. test loss: 0.1772, test accuracy: 0.7971
+Batch: 50/156. train loss: 0.1001, train accuracy: 0.8727
+Batch: 1/1. test loss: 0.1606, test accuracy: 0.8010
+Batch: 60/156. train loss: 0.0857, train accuracy: 0.8903
+Batch: 1/1. test loss: 0.1320, test accuracy: 0.7873
+Batch: 70/156. train loss: 0.0813, train accuracy: 0.8781
+Batch: 1/1. test loss: 0.1489, test accuracy: 0.7870
+Batch: 80/156. train loss: 0.0761, train accuracy: 0.8836
+Batch: 1/1. test loss: 0.1973, test accuracy: 0.7962
+Batch: 90/156. train loss: 0.0884, train accuracy: 0.8814
+Batch: 1/1. test loss: 0.1428, test accuracy: 0.8109
+Batch: 100/156. train loss: 0.1130, train accuracy: 0.8804
+Batch: 1/1. test loss: 0.1653, test accuracy: 0.8022
+Batch: 110/156. train loss: 0.0783, train accuracy: 0.8765
+Batch: 1/1. test loss: 0.1672, test accuracy: 0.7743
+Batch: 120/156. train loss: 0.0771, train accuracy: 0.8788
+Batch: 1/1. test loss: 0.1176, test accuracy: 0.8342
+Batch: 130/156. train loss: 0.0936, train accuracy: 0.8732
+Batch: 1/1. test loss: 0.1886, test accuracy: 0.7907
+Batch: 140/156. train loss: 0.0746, train accuracy: 0.8778
+Batch: 1/1. test loss: 0.1633, test accuracy: 0.7804
+Batch: 150/156. train loss: 0.0914, train accuracy: 0.8657
+Batch: 1/1. test loss: 0.1520, test accuracy: 0.8107
+Epoch: 44. Epoch loss: 14.4686
+Prediction on validation set...
+Prediction accuracy: 0.8042
+Shuffling train data...
+Batch: 10/156. train loss: 0.0711, train accuracy: 0.9036
+Batch: 1/1. test loss: 0.1761, test accuracy: 0.7860
+Batch: 20/156. train loss: 0.1008, train accuracy: 0.8673
+Batch: 1/1. test loss: 0.1652, test accuracy: 0.8084
+Batch: 30/156. train loss: 0.0827, train accuracy: 0.8792
+Batch: 1/1. test loss: 0.1530, test accuracy: 0.7969
+Batch: 40/156. train loss: 0.0990, train accuracy: 0.8845
+Batch: 1/1. test loss: 0.1635, test accuracy: 0.8020
+Batch: 50/156. train loss: 0.0838, train accuracy: 0.8796
+Batch: 1/1. test loss: 0.1393, test accuracy: 0.8123
+Batch: 60/156. train loss: 0.1029, train accuracy: 0.8751
+Batch: 1/1. test loss: 0.1576, test accuracy: 0.7868
+Batch: 70/156. train loss: 0.0773, train accuracy: 0.8895
+Batch: 1/1. test loss: 0.1618, test accuracy: 0.7937
+Batch: 80/156. train loss: 0.0645, train accuracy: 0.8804
+Batch: 1/1. test loss: 0.1502, test accuracy: 0.8140
+Batch: 90/156. train loss: 0.1009, train accuracy: 0.8884
+Batch: 1/1. test loss: 0.2099, test accuracy: 0.7858
+Batch: 100/156. train loss: 0.0824, train accuracy: 0.8792
+Batch: 1/1. test loss: 0.1475, test accuracy: 0.8152
+Batch: 110/156. train loss: 0.0802, train accuracy: 0.8786
+Batch: 1/1. test loss: 0.1747, test accuracy: 0.7980
+Batch: 120/156. train loss: 0.0910, train accuracy: 0.8756
+Batch: 1/1. test loss: 0.1750, test accuracy: 0.8030
+Batch: 130/156. train loss: 0.0834, train accuracy: 0.8829
+Batch: 1/1. test loss: 0.1372, test accuracy: 0.8265
+Batch: 140/156. train loss: 0.0898, train accuracy: 0.8763
+Batch: 1/1. test loss: 0.1623, test accuracy: 0.8071
+Batch: 150/156. train loss: 0.0716, train accuracy: 0.8894
+Batch: 1/1. test loss: 0.1689, test accuracy: 0.7878
+Epoch: 45. Epoch loss: 14.3450
+Prediction on validation set...
+Prediction accuracy: 0.8054
+Shuffling train data...
+Batch: 10/156. train loss: 0.0973, train accuracy: 0.8765
+Batch: 1/1. test loss: 0.1792, test accuracy: 0.7948
+Batch: 20/156. train loss: 0.0966, train accuracy: 0.8751
+Batch: 1/1. test loss: 0.1895, test accuracy: 0.8062
+Batch: 30/156. train loss: 0.1042, train accuracy: 0.8638
+Batch: 1/1. test loss: 0.1558, test accuracy: 0.8102
+Batch: 40/156. train loss: 0.1029, train accuracy: 0.8760
+Batch: 1/1. test loss: 0.1877, test accuracy: 0.7920
+Batch: 50/156. train loss: 0.0764, train accuracy: 0.8858
+Batch: 1/1. test loss: 0.1651, test accuracy: 0.8046
+Batch: 60/156. train loss: 0.0951, train accuracy: 0.8795
+Batch: 1/1. test loss: 0.1680, test accuracy: 0.8145
+Batch: 70/156. train loss: 0.0879, train accuracy: 0.8765
+Batch: 1/1. test loss: 0.1667, test accuracy: 0.8042
+Batch: 80/156. train loss: 0.0711, train accuracy: 0.8969
+Batch: 1/1. test loss: 0.1522, test accuracy: 0.7965
+Batch: 90/156. train loss: 0.0923, train accuracy: 0.8826
+Batch: 1/1. test loss: 0.1802, test accuracy: 0.8007
+Batch: 100/156. train loss: 0.0906, train accuracy: 0.8842
+Batch: 1/1. test loss: 0.1521, test accuracy: 0.8002
+Batch: 110/156. train loss: 0.0995, train accuracy: 0.8887
+Batch: 1/1. test loss: 0.1776, test accuracy: 0.8096
+Batch: 120/156. train loss: 0.1033, train accuracy: 0.8747
+Batch: 1/1. test loss: 0.1366, test accuracy: 0.8241
+Batch: 130/156. train loss: 0.1278, train accuracy: 0.8660
+Batch: 1/1. test loss: 0.1608, test accuracy: 0.8058
+Batch: 140/156. train loss: 0.1062, train accuracy: 0.8614
+Batch: 1/1. test loss: 0.1431, test accuracy: 0.8041
+Batch: 150/156. train loss: 0.0737, train accuracy: 0.8750
+Batch: 1/1. test loss: 0.1584, test accuracy: 0.7947
+Epoch: 46. Epoch loss: 14.2846
+Prediction on validation set...
+Prediction accuracy: 0.8044
+Shuffling train data...
+Batch: 10/156. train loss: 0.0878, train accuracy: 0.8852
+Batch: 1/1. test loss: 0.1614, test accuracy: 0.8113
+Batch: 20/156. train loss: 0.0811, train accuracy: 0.8947
+Batch: 1/1. test loss: 0.1813, test accuracy: 0.8098
+Batch: 30/156. train loss: 0.0966, train accuracy: 0.8869
+Batch: 1/1. test loss: 0.1336, test accuracy: 0.8265
+Batch: 40/156. train loss: 0.0887, train accuracy: 0.8808
+Batch: 1/1. test loss: 0.1599, test accuracy: 0.8029
+Batch: 50/156. train loss: 0.1079, train accuracy: 0.8789
+Batch: 1/1. test loss: 0.1599, test accuracy: 0.8024
+Batch: 60/156. train loss: 0.0746, train accuracy: 0.8783
+Batch: 1/1. test loss: 0.1571, test accuracy: 0.7959
+Batch: 70/156. train loss: 0.0860, train accuracy: 0.8705
+Batch: 1/1. test loss: 0.1876, test accuracy: 0.7928
+Batch: 80/156. train loss: 0.1025, train accuracy: 0.8764
+Batch: 1/1. test loss: 0.1829, test accuracy: 0.7924
+Batch: 90/156. train loss: 0.0913, train accuracy: 0.8742
+Batch: 1/1. test loss: 0.1294, test accuracy: 0.8222
+Batch: 100/156. train loss: 0.0782, train accuracy: 0.8890
+Batch: 1/1. test loss: 0.1580, test accuracy: 0.8146
+Batch: 110/156. train loss: 0.0858, train accuracy: 0.8871
+Batch: 1/1. test loss: 0.1465, test accuracy: 0.8283
+Batch: 120/156. train loss: 0.1042, train accuracy: 0.8720
+Batch: 1/1. test loss: 0.1676, test accuracy: 0.8021
+Batch: 130/156. train loss: 0.0835, train accuracy: 0.8716
+Batch: 1/1. test loss: 0.1578, test accuracy: 0.7971
+Batch: 140/156. train loss: 0.1020, train accuracy: 0.8705
+Batch: 1/1. test loss: 0.1271, test accuracy: 0.8029
+Batch: 150/156. train loss: 0.1080, train accuracy: 0.8685
+Batch: 1/1. test loss: 0.1816, test accuracy: 0.8179
+Epoch: 47. Epoch loss: 14.2242
+Prediction on validation set...
+Prediction accuracy: 0.8042
+Shuffling train data...
+Batch: 10/156. train loss: 0.0729, train accuracy: 0.8986
+Batch: 1/1. test loss: 0.1725, test accuracy: 0.8177
+Batch: 20/156. train loss: 0.0688, train accuracy: 0.8973
+Batch: 1/1. test loss: 0.1527, test accuracy: 0.7913
+Batch: 30/156. train loss: 0.0836, train accuracy: 0.8887
+Batch: 1/1. test loss: 0.1672, test accuracy: 0.8139
+Batch: 40/156. train loss: 0.0770, train accuracy: 0.8812
+Batch: 1/1. test loss: 0.1418, test accuracy: 0.8180
+Batch: 50/156. train loss: 0.0738, train accuracy: 0.8932
+Batch: 1/1. test loss: 0.1598, test accuracy: 0.7906
+Batch: 60/156. train loss: 0.0799, train accuracy: 0.8936
+Batch: 1/1. test loss: 0.1699, test accuracy: 0.8052
+Batch: 70/156. train loss: 0.0818, train accuracy: 0.8789
+Batch: 1/1. test loss: 0.1715, test accuracy: 0.8045
+Batch: 80/156. train loss: 0.0990, train accuracy: 0.8644
+Batch: 1/1. test loss: 0.1339, test accuracy: 0.7916
+Batch: 90/156. train loss: 0.0884, train accuracy: 0.8912
+Batch: 1/1. test loss: 0.1376, test accuracy: 0.8018
+Batch: 100/156. train loss: 0.1061, train accuracy: 0.8781
+Batch: 1/1. test loss: 0.1916, test accuracy: 0.7899
+Batch: 110/156. train loss: 0.1100, train accuracy: 0.8684
+Batch: 1/1. test loss: 0.1621, test accuracy: 0.8124
+Batch: 120/156. train loss: 0.1073, train accuracy: 0.8843
+Batch: 1/1. test loss: 0.1546, test accuracy: 0.8176
+Batch: 130/156. train loss: 0.0803, train accuracy: 0.8945
+Batch: 1/1. test loss: 0.1818, test accuracy: 0.7989
+Batch: 140/156. train loss: 0.0902, train accuracy: 0.8864
+Batch: 1/1. test loss: 0.1591, test accuracy: 0.7790
+Batch: 150/156. train loss: 0.1007, train accuracy: 0.8765
+Batch: 1/1. test loss: 0.1508, test accuracy: 0.8101
+Epoch: 48. Epoch loss: 14.1501
+Prediction on validation set...
+Prediction accuracy: 0.8043
+Shuffling train data...
+Batch: 10/156. train loss: 0.0727, train accuracy: 0.8782
+Batch: 1/1. test loss: 0.1558, test accuracy: 0.7946
+Batch: 20/156. train loss: 0.1121, train accuracy: 0.8660
+Batch: 1/1. test loss: 0.1694, test accuracy: 0.7826
+Batch: 30/156. train loss: 0.0875, train accuracy: 0.8924
+Batch: 1/1. test loss: 0.1648, test accuracy: 0.7914
+Batch: 40/156. train loss: 0.1035, train accuracy: 0.8689
+Batch: 1/1. test loss: 0.1679, test accuracy: 0.8000
+Batch: 50/156. train loss: 0.0992, train accuracy: 0.8673
+Batch: 1/1. test loss: 0.2232, test accuracy: 0.7700
+Batch: 60/156. train loss: 0.0830, train accuracy: 0.8919
+Batch: 1/1. test loss: 0.1552, test accuracy: 0.8033
+Batch: 70/156. train loss: 0.0847, train accuracy: 0.8709
+Batch: 1/1. test loss: 0.1518, test accuracy: 0.8186
+Batch: 80/156. train loss: 0.0703, train accuracy: 0.8776
+Batch: 1/1. test loss: 0.1430, test accuracy: 0.8207
+Batch: 90/156. train loss: 0.1144, train accuracy: 0.8841
+Batch: 1/1. test loss: 0.1859, test accuracy: 0.7954
+Batch: 100/156. train loss: 0.0938, train accuracy: 0.8701
+Batch: 1/1. test loss: 0.1640, test accuracy: 0.8068
+Batch: 110/156. train loss: 0.0860, train accuracy: 0.8804
+Batch: 1/1. test loss: 0.1648, test accuracy: 0.7994
+Batch: 120/156. train loss: 0.1040, train accuracy: 0.8927
+Batch: 1/1. test loss: 0.1823, test accuracy: 0.8040
+Batch: 130/156. train loss: 0.0898, train accuracy: 0.8633
+Batch: 1/1. test loss: 0.1310, test accuracy: 0.8160
+Batch: 140/156. train loss: 0.0844, train accuracy: 0.8799
+Batch: 1/1. test loss: 0.1700, test accuracy: 0.8092
+Batch: 150/156. train loss: 0.0952, train accuracy: 0.8791
+Batch: 1/1. test loss: 0.1598, test accuracy: 0.7920
+Epoch: 49. Epoch loss: 14.0968
+Prediction on validation set...
+Prediction accuracy: 0.8043
+
+Process finished with exit code 0

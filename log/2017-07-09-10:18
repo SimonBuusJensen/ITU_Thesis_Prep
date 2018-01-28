@@ -1,0 +1,450 @@
+/home/simon/anaconda2/bin/python /opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/pydevd.py --multiproc --qt-support --client 127.0.0.1 --port 46757 --file /home/simon/PycharmProjects/CNN-ThesisProj/main.py cullpdb+profile_6133.npy
+warning: Debugger speedups using cython not found. Run '"/home/simon/anaconda2/bin/python" "/opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/setup_cython.py" build_ext --inplace' to build.
+pydev debugger: process 6648 is connecting
+
+Connected to pydev debugger (build 171.4694.38)
+('data shape: ', (6133, 700, 57))
+('ss-reduced data set shape: ', (6133, 700, 44), (6133, 700, 4))
+('training data shape: ', (5600, 700, 44), (5600, 700, 4))
+('test data shape: ', (533, 700, 44), (533, 700, 4))
+Building model...
+2017-07-09 08:43:51.660941: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 08:43:51.660957: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 08:43:51.660962: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 08:43:51.660965: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 08:43:51.660969: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Shuffling train data...
+Batch: 1/175
+Batch: 2/175
+Batch: 3/175
+Batch: 4/175
+Batch: 5/175. train loss: 3199.2024, train accuracy: 0.0811
+Batch: 6/175
+Batch: 7/175
+Batch: 8/175
+Batch: 9/175
+Batch: 10/175. train loss: 2442.6370, train accuracy: 0.0792
+Batch: 1/16, test accuracy: 0.0877
+Batch: 2/16, test accuracy: 0.0664
+Batch: 3/16, test accuracy: 0.0653
+Batch: 4/16, test accuracy: 0.0664
+Batch: 11/175
+Batch: 12/175
+Batch: 13/175
+Batch: 14/175
+Batch: 15/175. train loss: 1495.5762, train accuracy: 0.0657
+Batch: 16/175
+Batch: 17/175
+Batch: 18/175
+Batch: 19/175
+Batch: 20/175. train loss: 827.8257, train accuracy: 0.7771
+Batch: 1/16, test accuracy: 0.7944
+Batch: 2/16, test accuracy: 0.7855
+Batch: 3/16, test accuracy: 0.7647
+Batch: 4/16, test accuracy: 0.7631
+Batch: 21/175
+Batch: 22/175
+Batch: 23/175
+Batch: 24/175
+Batch: 25/175. train loss: 772.2834, train accuracy: 0.7964
+Batch: 26/175
+Batch: 27/175
+Batch: 28/175
+Batch: 29/175
+Batch: 30/175. train loss: 824.9623, train accuracy: 0.7784
+Batch: 1/16, test accuracy: 0.7768
+Batch: 2/16, test accuracy: 0.7706
+Batch: 3/16, test accuracy: 0.8160
+Batch: 4/16, test accuracy: 0.7657
+Batch: 31/175
+Batch: 32/175
+Batch: 33/175
+Batch: 34/175
+Batch: 35/175. train loss: 936.4637, train accuracy: 0.7472
+Batch: 36/175
+Batch: 37/175
+Batch: 38/175
+Batch: 39/175
+Backend Qt5Agg is interactive backend. Turning interactive mode on.
+Batch: 40/175. train loss: 667.0114, train accuracy: 0.8188
+Batch: 1/16, test accuracy: 0.7926
+Batch: 2/16, test accuracy: 0.7767
+Batch: 3/16, test accuracy: 0.7685
+Batch: 4/16, test accuracy: 0.7675
+Batch: 41/175
+Batch: 42/175
+Batch: 43/175
+Batch: 44/175
+Batch: 45/175. train loss: 737.5118, train accuracy: 0.7833
+Batch: 46/175
+Batch: 47/175
+Batch: 48/175
+Batch: 49/175
+Batch: 50/175. train loss: 657.4481, train accuracy: 0.8022
+Batch: 1/16, test accuracy: 0.7809
+Batch: 2/16, test accuracy: 0.7939
+Batch: 3/16, test accuracy: 0.7359
+Batch: 4/16, test accuracy: 0.7678
+Batch: 51/175
+Batch: 52/175
+Batch: 53/175
+Batch: 54/175
+Batch: 55/175. train loss: 678.9279, train accuracy: 0.7976
+Batch: 56/175
+Batch: 57/175
+Batch: 58/175
+Batch: 59/175
+Batch: 60/175. train loss: 739.4070, train accuracy: 0.7742
+Batch: 1/16, test accuracy: 0.7854
+Batch: 2/16, test accuracy: 0.8004
+Batch: 3/16, test accuracy: 0.7732
+Batch: 4/16, test accuracy: 0.7818
+Batch: 61/175
+Batch: 62/175
+Batch: 63/175
+Batch: 64/175
+Batch: 65/175. train loss: 717.6018, train accuracy: 0.7691
+Batch: 66/175
+Batch: 67/175
+Batch: 68/175
+Batch: 69/175
+Batch: 70/175. train loss: 617.4442, train accuracy: 0.8095
+Batch: 1/16, test accuracy: 0.8173
+Batch: 2/16, test accuracy: 0.7872
+Batch: 3/16, test accuracy: 0.7705
+Batch: 4/16, test accuracy: 0.7971
+Batch: 71/175
+Batch: 72/175
+Batch: 73/175
+Batch: 74/175
+Batch: 75/175. train loss: 630.5895, train accuracy: 0.7869
+Batch: 76/175
+Batch: 77/175
+Batch: 78/175
+Batch: 79/175
+Batch: 80/175. train loss: 691.2817, train accuracy: 0.7766
+Batch: 1/16, test accuracy: 0.7945
+Batch: 2/16, test accuracy: 0.8003
+Batch: 3/16, test accuracy: 0.8004
+Batch: 4/16, test accuracy: 0.7930
+Batch: 81/175
+Batch: 82/175
+Batch: 83/175
+Batch: 84/175
+Batch: 85/175. train loss: 728.8650, train accuracy: 0.7547
+Batch: 86/175
+Batch: 87/175
+Batch: 88/175
+Batch: 89/175
+Batch: 90/175. train loss: 577.7869, train accuracy: 0.8024
+Batch: 1/16, test accuracy: 0.8161
+Batch: 2/16, test accuracy: 0.7875
+Batch: 3/16, test accuracy: 0.7799
+Batch: 4/16, test accuracy: 0.8229
+Batch: 91/175
+Batch: 92/175
+Batch: 93/175
+Batch: 94/175
+Batch: 95/175. train loss: 546.4535, train accuracy: 0.8014
+Batch: 96/175
+Batch: 97/175
+Batch: 98/175
+Batch: 99/175
+Batch: 100/175. train loss: 570.9992, train accuracy: 0.7872
+Batch: 1/16, test accuracy: 0.7595
+Batch: 2/16, test accuracy: 0.8343
+Batch: 3/16, test accuracy: 0.7691
+Batch: 4/16, test accuracy: 0.8164
+Batch: 101/175
+Batch: 102/175
+Batch: 103/175
+Batch: 104/175
+Batch: 105/175. train loss: 562.4427, train accuracy: 0.7901
+Batch: 106/175
+Batch: 107/175
+Batch: 108/175
+Batch: 109/175
+Batch: 110/175. train loss: 581.0106, train accuracy: 0.7778
+Batch: 1/16, test accuracy: 0.8020
+Batch: 2/16, test accuracy: 0.7714
+Batch: 3/16, test accuracy: 0.8119
+Batch: 4/16, test accuracy: 0.8321
+Batch: 111/175
+Batch: 112/175
+Batch: 113/175
+Batch: 114/175
+Batch: 115/175. train loss: 619.3943, train accuracy: 0.7483
+Batch: 116/175
+Batch: 117/175
+Batch: 118/175
+Batch: 119/175
+Batch: 120/175. train loss: 446.3098, train accuracy: 0.8179
+Batch: 1/16, test accuracy: 0.7960
+Batch: 2/16, test accuracy: 0.8055
+Batch: 3/16, test accuracy: 0.7865
+Batch: 4/16, test accuracy: 0.7738
+Batch: 121/175
+Batch: 122/175
+Batch: 123/175
+Batch: 124/175
+Batch: 125/175. train loss: 507.8118, train accuracy: 0.7915
+Batch: 126/175
+Batch: 127/175
+Batch: 128/175
+Batch: 129/175
+Batch: 130/175. train loss: 534.0139, train accuracy: 0.7799
+Batch: 1/16, test accuracy: 0.7862
+Batch: 2/16, test accuracy: 0.7758
+Batch: 3/16, test accuracy: 0.7765
+Batch: 4/16, test accuracy: 0.8261
+Batch: 131/175
+Batch: 132/175
+Batch: 133/175
+Batch: 134/175
+Batch: 135/175. train loss: 546.9979, train accuracy: 0.7676
+Batch: 136/175
+Batch: 137/175
+Batch: 138/175
+Batch: 139/175
+Batch: 140/175. train loss: 428.5763, train accuracy: 0.8149
+Batch: 1/16, test accuracy: 0.8053
+Batch: 2/16, test accuracy: 0.7732
+Batch: 3/16, test accuracy: 0.8110
+Batch: 4/16, test accuracy: 0.7636
+Batch: 141/175
+Batch: 142/175
+Batch: 143/175
+Batch: 144/175
+Batch: 145/175. train loss: 406.5751, train accuracy: 0.8133
+Batch: 146/175
+Batch: 147/175
+Batch: 148/175
+Batch: 149/175
+Batch: 150/175. train loss: 483.0908, train accuracy: 0.7734
+Batch: 1/16, test accuracy: 0.7851
+Batch: 2/16, test accuracy: 0.8467
+Batch: 3/16, test accuracy: 0.8057
+Batch: 4/16, test accuracy: 0.7832
+Batch: 151/175
+Batch: 152/175
+Batch: 153/175
+Batch: 154/175
+Batch: 155/175. train loss: 430.6913, train accuracy: 0.7946
+Batch: 156/175
+Batch: 157/175
+Batch: 158/175
+Batch: 159/175
+Batch: 160/175. train loss: 448.7794, train accuracy: 0.7856
+Batch: 1/16, test accuracy: 0.7656
+Batch: 2/16, test accuracy: 0.8368
+Batch: 3/16, test accuracy: 0.8075
+Batch: 4/16, test accuracy: 0.7845
+Batch: 161/175
+Batch: 162/175
+Batch: 163/175
+Batch: 164/175
+Batch: 165/175. train loss: 394.8304, train accuracy: 0.8132
+Batch: 166/175
+Batch: 167/175
+Batch: 168/175
+Batch: 169/175
+Batch: 170/175. train loss: 380.7746, train accuracy: 0.8168
+Batch: 1/16, test accuracy: 0.8188
+Batch: 2/16, test accuracy: 0.8051
+Batch: 3/16, test accuracy: 0.8171
+Batch: 4/16, test accuracy: 0.7939
+Batch: 171/175
+Batch: 172/175
+Batch: 173/175
+Batch: 174/175
+Batch: 0/175. train loss: 372.1508, train accuracy: 0.8067
+Epoch: 0. Epoch loss: 137727.5370
+Shuffling train data...
+Batch: 1/175
+Batch: 2/175
+Batch: 3/175
+Batch: 4/175
+Batch: 5/175. train loss: 371.2235, train accuracy: 0.8116
+Batch: 6/175
+Batch: 7/175
+Batch: 8/175
+Batch: 9/175
+Batch: 10/175. train loss: 366.3008, train accuracy: 0.8115
+Batch: 1/16, test accuracy: 0.8218
+Batch: 2/16, test accuracy: 0.8211
+Batch: 3/16, test accuracy: 0.8115
+Batch: 4/16, test accuracy: 0.7929
+Batch: 11/175
+Batch: 12/175
+Batch: 13/175
+Batch: 14/175
+Batch: 15/175. train loss: 379.8095, train accuracy: 0.7917
+Batch: 16/175
+Batch: 17/175
+Batch: 18/175
+Batch: 19/175
+Batch: 20/175. train loss: 352.6956, train accuracy: 0.8047
+Batch: 1/16, test accuracy: 0.7989
+Batch: 2/16, test accuracy: 0.7994
+Batch: 3/16, test accuracy: 0.7800
+Batch: 4/16, test accuracy: 0.8259
+Batch: 21/175
+Batch: 22/175
+Batch: 23/175
+Batch: 24/175
+Batch: 25/175. train loss: 311.5579, train accuracy: 0.8313
+Batch: 26/175
+Batch: 27/175
+Batch: 28/175
+Batch: 29/175
+Batch: 30/175. train loss: 391.1638, train accuracy: 0.7802
+Batch: 1/16, test accuracy: 0.8229
+Batch: 2/16, test accuracy: 0.7954
+Batch: 3/16, test accuracy: 0.8068
+Batch: 4/16, test accuracy: 0.8094
+Batch: 31/175
+Batch: 32/175
+Batch: 33/175
+Batch: 34/175
+Batch: 35/175. train loss: 388.9827, train accuracy: 0.7872
+Batch: 36/175
+Batch: 37/175
+Batch: 38/175
+Batch: 39/175
+Batch: 40/175. train loss: 408.3769, train accuracy: 0.7697
+Batch: 1/16, test accuracy: 0.8529
+Batch: 2/16, test accuracy: 0.8292
+Batch: 3/16, test accuracy: 0.7986
+Batch: 4/16, test accuracy: 0.7905
+Batch: 41/175
+Batch: 42/175
+Batch: 43/175
+Batch: 44/175
+Batch: 45/175. train loss: 300.9616, train accuracy: 0.8231
+Batch: 46/175
+Batch: 47/175
+Batch: 48/175
+Batch: 49/175
+Batch: 50/175. train loss: 398.0971, train accuracy: 0.7692
+Batch: 1/16, test accuracy: 0.7763
+Batch: 2/16, test accuracy: 0.8192
+Batch: 3/16, test accuracy: 0.8016
+Batch: 4/16, test accuracy: 0.8094
+Batch: 51/175
+Batch: 52/175
+Batch: 53/175
+Batch: 54/175
+Batch: 55/175. train loss: 329.7400, train accuracy: 0.7981
+Batch: 56/175
+Batch: 57/175
+Batch: 58/175
+Batch: 59/175
+Batch: 60/175. train loss: 316.0877, train accuracy: 0.8095
+Batch: 1/16, test accuracy: 0.8103
+Batch: 2/16, test accuracy: 0.8254
+Batch: 3/16, test accuracy: 0.8095
+Batch: 4/16, test accuracy: 0.8112
+Batch: 61/175
+Batch: 62/175
+Batch: 63/175
+Batch: 64/175
+Batch: 65/175. train loss: 319.2235, train accuracy: 0.8058
+Batch: 66/175
+Batch: 67/175
+Batch: 68/175
+Batch: 69/175
+Batch: 70/175. train loss: 333.0062, train accuracy: 0.7915
+Batch: 1/16, test accuracy: 0.7591
+Batch: 2/16, test accuracy: 0.8085
+Batch: 3/16, test accuracy: 0.8194
+Batch: 4/16, test accuracy: 0.8203
+Batch: 71/175
+Batch: 72/175
+Batch: 73/175
+Batch: 74/175
+Batch: 75/175. train loss: 354.1946, train accuracy: 0.7755
+Batch: 76/175
+Batch: 77/175
+Batch: 78/175
+Batch: 79/175
+Batch: 80/175. train loss: 276.0703, train accuracy: 0.8171
+Batch: 1/16, test accuracy: 0.8203
+Batch: 2/16, test accuracy: 0.8001
+Batch: 3/16, test accuracy: 0.8023
+Batch: 4/16, test accuracy: 0.8147
+Batch: 81/175
+Batch: 82/175
+Batch: 83/175
+Batch: 84/175
+Batch: 85/175. train loss: 325.4648, train accuracy: 0.7954
+Batch: 86/175
+Batch: 87/175
+Batch: 88/175
+Batch: 89/175
+Batch: 90/175. train loss: 241.7558, train accuracy: 0.8393
+Batch: 1/16, test accuracy: 0.8301
+Batch: 2/16, test accuracy: 0.7783
+Batch: 3/16, test accuracy: 0.8284
+Batch: 4/16, test accuracy: 0.7677
+Batch: 91/175
+Batch: 92/175
+Batch: 93/175
+Batch: 94/175
+Batch: 95/175. train loss: 248.3790, train accuracy: 0.8409
+Batch: 96/175
+Batch: 97/175
+Batch: 98/175
+Batch: 99/175
+Batch: 100/175. train loss: 280.7547, train accuracy: 0.8157
+Batch: 1/16, test accuracy: 0.8238
+Batch: 2/16, test accuracy: 0.8193
+Batch: 3/16, test accuracy: 0.7879
+Batch: 4/16, test accuracy: 0.7992
+Batch: 101/175
+Batch: 102/175
+Batch: 103/175
+Batch: 104/175
+Batch: 105/175. train loss: 242.6637, train accuracy: 0.8334
+Batch: 106/175
+Batch: 107/175
+Batch: 108/175
+Batch: 109/175
+Error evaluating: thread_id: pid_6648_id_140128030513168
+frame_id: 59563776
+scope: FRAME
+attrs: __py_debug_temp_var_8612488
+Traceback (most recent call last):
+  File "/opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/_pydevd_bundle/pydevd_vars.py", line 250, in resolve_compound_variable
+    return resolver.get_dictionary(var)
+  File "/opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/_pydevd_bundle/pydevd_resolver.py", line 463, in get_dictionary
+    ret['min'] = obj.min()
+  File "/home/simon/anaconda2/lib/python2.7/site-packages/numpy/core/_methods.py", line 29, in _amin
+    return umr_minimum(a, axis, None, out, keepdims)
+ValueError: zero-size array to reduction operation minimum which has no identity
+Batch: 110/175. train loss: 268.8312, train accuracy: 0.8172
+Batch: 1/16, test accuracy: 0.7911
+Batch: 2/16, test accuracy: 0.8440
+Batch: 3/16, test accuracy: 0.8462
+Batch: 4/16, test accuracy: 0.7887
+Batch: 111/175
+Batch: 112/175
+Batch: 113/175
+Batch: 114/175
+Batch: 115/175. train loss: 303.0074, train accuracy: 0.8014
+Batch: 116/175
+Batch: 117/175
+Batch: 118/175
+Batch: 119/175
+Batch: 120/175. train loss: 244.3168, train accuracy: 0.8315
+Batch: 1/16, test accuracy: 0.7681
+Batch: 2/16, test accuracy: 0.7938
+Batch: 3/16, test accuracy: 0.8092
+Batch: 4/16, test accuracy: 0.7579
+Batch: 121/175
+Batch: 122/175
+Batch: 123/175
+Batch: 124/175
+Batch: 125/175. train loss: 276.8412, train accuracy: 0.8091
+Batch: 126/175
+Batch: 127/175
+Batch: 128/175

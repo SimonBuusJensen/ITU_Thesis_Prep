@@ -1,0 +1,488 @@
+/home/simon/anaconda2/bin/python /opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/pydevd.py --multiproc --qt-support --client 127.0.0.1 --port 42357 --file /home/simon/PycharmProjects/CNN-ThesisProj/main.py cullpdb+profile_6133.npy
+warning: Debugger speedups using cython not found. Run '"/home/simon/anaconda2/bin/python" "/opt/Jetbrains/pycharm-community-2017.1.3/helpers/pydev/setup_cython.py" build_ext --inplace' to build.
+pydev debugger: process 2398 is connecting
+
+Connected to pydev debugger (build 171.4694.38)
+('data shape: ', (6133, 700, 57))
+('ss-reduced data set shape: ', (6133, 700, 44), (6133, 700, 4))
+('training data shape: ', (5000, 700, 44), (5000, 700, 4))
+('test data shape: ', (600, 700, 44), (600, 700, 4))
+('test data shape: ', (533, 700, 44), (533, 700, 4))
+Here!
+Building model...
+2017-07-09 12:01:39.696992: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 12:01:39.697017: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 12:01:39.697026: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 12:01:39.697032: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-07-09 12:01:39.697039: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+Shuffling train data...
+Batch: 1/156
+Batch: 2/156
+Batch: 3/156
+Batch: 4/156
+Batch: 5/156. train loss: 1562.1122, train accuracy: 0.1329
+Batch: 6/156
+Batch: 7/156
+Batch: 8/156
+Batch: 9/156
+Batch: 10/156. train loss: 657.0416, train accuracy: 0.6945
+Batch: 1/2. test loss: 705.9767, test accuracy: 0.2159
+Batch: 2/2. test loss: 675.8162, test accuracy: 0.4684
+Batch: 11/156
+Batch: 12/156
+Batch: 13/156
+Batch: 14/156
+Batch: 15/156. train loss: 602.6202, train accuracy: 0.6696
+Batch: 16/156
+Batch: 17/156
+Batch: 18/156
+Batch: 19/156
+Batch: 20/156. train loss: 749.4547, train accuracy: 0.3922
+Batch: 1/2. test loss: 603.9667, test accuracy: 0.2268
+Batch: 2/2. test loss: 674.2334, test accuracy: 0.3834
+Batch: 21/156
+Batch: 22/156
+Batch: 23/156
+Batch: 24/156
+Batch: 25/156. train loss: 627.4562, train accuracy: 0.6009
+Batch: 26/156
+Batch: 27/156
+Batch: 28/156
+Batch: 29/156
+Batch: 30/156. train loss: 561.3089, train accuracy: 0.6329
+Batch: 1/2. test loss: 756.4875, test accuracy: 0.2406
+Batch: 2/2. test loss: 660.9473, test accuracy: 0.6421
+Batch: 31/156
+Batch: 32/156
+Batch: 33/156
+Batch: 34/156
+Batch: 35/156. train loss: 727.8478, train accuracy: 0.4010
+Batch: 36/156
+Batch: 37/156
+Batch: 38/156
+Batch: 39/156
+Batch: 40/156. train loss: 567.1929, train accuracy: 0.5789
+Batch: 1/2. test loss: 668.0320, test accuracy: 0.2524
+Batch: 2/2. test loss: 710.0721, test accuracy: 0.4268
+Batch: 41/156
+Batch: 42/156
+Batch: 43/156
+Batch: 44/156
+Batch: 45/156. train loss: 582.6569, train accuracy: 0.5500
+Batch: 46/156
+Batch: 47/156
+Batch: 48/156
+Batch: 49/156
+Batch: 50/156. train loss: 610.1599, train accuracy: 0.4468
+Batch: 1/2. test loss: 550.7584, test accuracy: 0.2553
+Batch: 2/2. test loss: 615.2757, test accuracy: 0.4554
+Batch: 51/156
+Batch: 52/156
+Batch: 53/156
+Batch: 54/156
+Batch: 55/156. train loss: 499.2155, train accuracy: 0.6305
+Batch: 56/156
+Batch: 57/156
+Batch: 58/156
+Batch: 59/156
+Batch: 60/156. train loss: 461.4834, train accuracy: 0.6514
+Batch: 1/2. test loss: 511.6412, test accuracy: 0.2817
+Batch: 2/2. test loss: 495.4533, test accuracy: 0.5344
+Batch: 61/156
+Batch: 62/156
+Batch: 63/156
+Batch: 64/156
+Batch: 65/156. train loss: 446.6330, train accuracy: 0.6843
+Batch: 66/156
+Batch: 67/156
+Batch: 68/156
+Batch: 69/156
+Batch: 70/156. train loss: 480.1632, train accuracy: 0.5570
+Batch: 1/2. test loss: 510.8903, test accuracy: 0.3016
+Batch: 2/2. test loss: 407.7924, test accuracy: 0.7779
+Batch: 71/156
+Batch: 72/156
+Batch: 73/156
+Batch: 74/156
+Batch: 75/156. train loss: 596.9157, train accuracy: 0.3771
+Batch: 76/156
+Batch: 77/156
+Batch: 78/156
+Batch: 79/156
+Batch: 80/156. train loss: 470.9480, train accuracy: 0.5777
+Batch: 1/2. test loss: 476.9521, test accuracy: 0.3314
+Batch: 2/2. test loss: 444.4990, test accuracy: 0.6477
+Batch: 81/156
+Batch: 82/156
+Batch: 83/156
+Batch: 84/156
+Batch: 85/156. train loss: 361.6453, train accuracy: 0.6779
+Batch: 86/156
+Batch: 87/156
+Batch: 88/156
+Batch: 89/156
+Batch: 90/156. train loss: 356.7761, train accuracy: 0.7469
+Batch: 1/2. test loss: 373.0597, test accuracy: 0.3311
+Batch: 2/2. test loss: 361.4750, test accuracy: 0.5974
+Batch: 91/156
+Batch: 92/156
+Batch: 93/156
+Batch: 94/156
+Batch: 95/156. train loss: 355.2079, train accuracy: 0.7729
+Batch: 96/156
+Batch: 97/156
+Batch: 98/156
+Batch: 99/156
+Batch: 100/156. train loss: 408.0374, train accuracy: 0.5629
+Batch: 1/2. test loss: 488.9422, test accuracy: 0.3209
+Batch: 2/2. test loss: 319.1434, test accuracy: 0.9053
+Batch: 101/156
+Batch: 102/156
+Batch: 103/156
+Batch: 104/156
+Batch: 105/156. train loss: 449.4233, train accuracy: 0.4551
+Batch: 106/156
+Batch: 107/156
+Batch: 108/156
+Batch: 109/156
+Batch: 110/156. train loss: 373.0062, train accuracy: 0.6463
+Batch: 1/2. test loss: 362.0412, test accuracy: 0.3305
+Batch: 2/2. test loss: 316.8185, test accuracy: 0.6578
+Batch: 111/156
+Batch: 112/156
+Batch: 113/156
+Batch: 114/156
+Batch: 115/156. train loss: 364.2811, train accuracy: 0.6515
+Batch: 116/156
+Batch: 117/156
+Batch: 118/156
+Batch: 119/156
+Batch: 120/156. train loss: 401.6154, train accuracy: 0.5686
+Batch: 1/2. test loss: 371.9641, test accuracy: 0.3431
+Batch: 2/2. test loss: 353.7040, test accuracy: 0.5513
+Batch: 121/156
+Batch: 122/156
+Batch: 123/156
+Batch: 124/156
+Batch: 125/156. train loss: 294.8682, train accuracy: 0.8033
+Batch: 126/156
+Batch: 127/156
+Batch: 128/156
+Batch: 129/156
+Batch: 130/156. train loss: 394.2009, train accuracy: 0.5369
+Batch: 1/2. test loss: 359.0011, test accuracy: 0.3272
+Batch: 2/2. test loss: 350.7431, test accuracy: 0.5815
+Batch: 131/156
+Batch: 132/156
+Batch: 133/156
+Batch: 134/156
+Batch: 135/156. train loss: 302.8498, train accuracy: 0.7479
+Batch: 136/156
+Batch: 137/156
+Batch: 138/156
+Batch: 139/156
+Batch: 140/156. train loss: 388.7450, train accuracy: 0.4947
+Batch: 1/2. test loss: 306.4668, test accuracy: 0.3570
+Batch: 2/2. test loss: 283.5125, test accuracy: 0.5794
+Batch: 141/156
+Batch: 142/156
+Batch: 143/156
+Batch: 144/156
+Batch: 145/156. train loss: 271.5042, train accuracy: 0.8053
+Batch: 146/156
+Batch: 147/156
+Batch: 148/156
+Batch: 149/156
+Batch: 150/156. train loss: 305.1423, train accuracy: 0.6687
+Batch: 1/2. test loss: 306.1617, test accuracy: 0.3493
+Batch: 2/2. test loss: 357.5932, test accuracy: 0.4215
+Batch: 151/156
+Batch: 152/156
+Batch: 153/156
+Batch: 154/156
+Batch: 155/156. train loss: 342.3591, train accuracy: 0.5617
+Batch: 156/156
+Epoch: 0. Epoch loss: 82871.8137 
+Shuffling train data...
+Batch: 1/156
+Batch: 2/156
+Batch: 3/156
+Batch: 4/156
+Batch: 5/156. train loss: 276.7140, train accuracy: 0.7273
+Batch: 6/156
+Batch: 7/156
+Batch: 8/156
+Batch: 9/156
+Batch: 10/156. train loss: 217.3784, train accuracy: 0.8678
+Batch: 1/2. test loss: 345.7896, test accuracy: 0.3554
+Batch: 2/2. test loss: 289.8789, test accuracy: 0.7193
+Batch: 11/156
+Batch: 12/156
+Batch: 13/156
+Batch: 14/156
+Batch: 15/156. train loss: 270.7583, train accuracy: 0.6393
+Batch: 16/156
+Batch: 17/156
+Batch: 18/156
+Batch: 19/156
+Batch: 20/156. train loss: 255.6397, train accuracy: 0.6939
+Batch: 1/2. test loss: 284.3201, test accuracy: 0.3576
+Batch: 2/2. test loss: 293.5979, test accuracy: 0.5134
+Batch: 21/156
+Batch: 22/156
+Batch: 23/156
+Batch: 24/156
+Batch: 25/156. train loss: 338.6131, train accuracy: 0.5264
+Batch: 26/156
+Batch: 27/156
+Batch: 28/156
+Batch: 29/156
+Batch: 30/156. train loss: 270.6655, train accuracy: 0.6325
+Batch: 1/2. test loss: 241.7208, test accuracy: 0.3665
+Batch: 2/2. test loss: 302.4894, test accuracy: 0.4375
+Batch: 31/156
+Batch: 32/156
+Batch: 33/156
+Batch: 34/156
+Batch: 35/156. train loss: 256.9442, train accuracy: 0.6843
+Batch: 36/156
+Batch: 37/156
+Batch: 38/156
+Batch: 39/156
+Batch: 40/156. train loss: 306.1350, train accuracy: 0.5065
+Batch: 1/2. test loss: 346.1400, test accuracy: 0.3656
+Batch: 2/2. test loss: 292.2140, test accuracy: 0.7208
+Batch: 41/156
+Batch: 42/156
+Batch: 43/156
+Batch: 44/156
+Batch: 45/156. train loss: 305.5186, train accuracy: 0.4591
+Batch: 46/156
+Batch: 47/156
+Batch: 48/156
+Batch: 49/156
+Batch: 50/156. train loss: 264.2723, train accuracy: 0.5922
+Batch: 1/2. test loss: 236.4145, test accuracy: 0.3782
+Batch: 2/2. test loss: 310.9303, test accuracy: 0.4649
+Batch: 51/156
+Batch: 52/156
+Batch: 53/156
+Batch: 54/156
+Batch: 55/156. train loss: 219.1117, train accuracy: 0.7756
+Batch: 56/156
+Batch: 57/156
+Batch: 58/156
+Batch: 59/156
+Batch: 60/156. train loss: 281.0019, train accuracy: 0.4938
+Batch: 1/2. test loss: 306.8499, test accuracy: 0.3770
+Batch: 2/2. test loss: 253.2930, test accuracy: 0.7127
+Batch: 61/156
+Batch: 62/156
+Batch: 63/156
+Batch: 64/156
+Batch: 65/156. train loss: 247.6434, train accuracy: 0.6078
+Batch: 66/156
+Batch: 67/156
+Batch: 68/156
+Batch: 69/156
+Batch: 70/156. train loss: 330.8755, train accuracy: 0.4006
+Batch: 1/2. test loss: 300.4576, test accuracy: 0.3811
+Batch: 2/2. test loss: 258.1008, test accuracy: 0.6890
+Batch: 71/156
+Batch: 72/156
+Batch: 73/156
+Batch: 74/156
+Batch: 75/156. train loss: 254.1329, train accuracy: 0.5680
+Batch: 76/156
+Batch: 77/156
+Batch: 78/156
+Batch: 79/156
+Batch: 80/156. train loss: 234.7921, train accuracy: 0.6191
+Batch: 1/2. test loss: 278.0320, test accuracy: 0.3843
+Batch: 2/2. test loss: 240.6039, test accuracy: 0.6721
+Batch: 81/156
+Batch: 82/156
+Batch: 83/156
+Batch: 84/156
+Batch: 85/156. train loss: 188.8125, train accuracy: 0.8438
+Batch: 86/156
+Batch: 87/156
+Batch: 88/156
+Batch: 89/156
+Batch: 90/156. train loss: 241.8836, train accuracy: 0.5259
+Batch: 1/2. test loss: 236.1518, test accuracy: 0.3894
+Batch: 2/2. test loss: 251.8161, test accuracy: 0.5261
+Batch: 91/156
+Batch: 92/156
+Batch: 93/156
+Batch: 94/156
+Batch: 95/156. train loss: 276.0027, train accuracy: 0.5005
+Batch: 96/156
+Batch: 97/156
+Batch: 98/156
+Batch: 99/156
+Batch: 100/156. train loss: 266.3117, train accuracy: 0.4981
+Batch: 1/2. test loss: 236.6248, test accuracy: 0.3707
+Batch: 2/2. test loss: 206.1911, test accuracy: 0.6986
+Batch: 101/156
+Batch: 102/156
+Batch: 103/156
+Batch: 104/156
+Batch: 105/156. train loss: 256.7587, train accuracy: 0.5352
+Batch: 106/156
+Batch: 107/156
+Batch: 108/156
+Batch: 109/156
+Batch: 110/156. train loss: 264.5763, train accuracy: 0.4814
+Batch: 1/2. test loss: 240.9192, test accuracy: 0.3900
+Batch: 2/2. test loss: 196.4848, test accuracy: 0.8061
+Batch: 111/156
+Batch: 112/156
+Batch: 113/156
+Batch: 114/156
+Batch: 115/156. train loss: 265.4668, train accuracy: 0.4942
+Batch: 116/156
+Batch: 117/156
+Batch: 118/156
+Batch: 119/156
+Batch: 120/156. train loss: 241.7016, train accuracy: 0.5933
+Batch: 1/2. test loss: 235.6679, test accuracy: 0.3758
+Batch: 2/2. test loss: 229.7997, test accuracy: 0.6339
+Batch: 121/156
+Batch: 122/156
+Batch: 123/156
+Batch: 124/156
+Batch: 125/156. train loss: 222.7048, train accuracy: 0.6484
+Batch: 126/156
+Batch: 127/156
+Batch: 128/156
+Batch: 129/156
+Batch: 130/156. train loss: 236.1489, train accuracy: 0.5079
+Batch: 1/2. test loss: 220.1837, test accuracy: 0.3951
+Batch: 2/2. test loss: 232.5208, test accuracy: 0.5542
+Batch: 131/156
+Batch: 132/156
+Batch: 133/156
+Batch: 134/156
+Batch: 135/156. train loss: 241.7409, train accuracy: 0.5200
+Batch: 136/156
+Batch: 137/156
+Batch: 138/156
+Batch: 139/156
+Batch: 140/156. train loss: 260.7039, train accuracy: 0.4735
+Batch: 1/2. test loss: 219.6335, test accuracy: 0.3980
+Batch: 2/2. test loss: 170.1526, test accuracy: 0.8298
+Batch: 141/156
+Batch: 142/156
+Batch: 143/156
+Batch: 144/156
+Batch: 145/156. train loss: 202.4020, train accuracy: 0.6716
+Batch: 146/156
+Batch: 147/156
+Batch: 148/156
+Batch: 149/156
+Batch: 150/156. train loss: 166.9707, train accuracy: 0.8407
+Batch: 1/2. test loss: 241.4633, test accuracy: 0.3901
+Batch: 2/2. test loss: 197.9346, test accuracy: 0.6843
+Batch: 151/156
+Batch: 152/156
+Batch: 153/156
+Batch: 154/156
+Batch: 155/156. train loss: 232.8229, train accuracy: 0.5320
+Batch: 156/156
+Epoch: 1. Epoch loss: 39883.6524 
+Shuffling train data...
+Batch: 1/156
+Batch: 2/156
+Batch: 3/156
+Batch: 4/156
+Batch: 5/156. train loss: 200.6035, train accuracy: 0.5394
+Batch: 6/156
+Batch: 7/156
+Batch: 8/156
+Batch: 9/156
+Batch: 10/156. train loss: 242.8839, train accuracy: 0.4301
+Batch: 1/2. test loss: 192.3460, test accuracy: 0.4062
+Batch: 2/2. test loss: 216.1371, test accuracy: 0.5252
+Batch: 11/156
+Batch: 12/156
+Batch: 13/156
+Batch: 14/156
+Batch: 15/156. train loss: 230.1742, train accuracy: 0.4232
+Batch: 16/156
+Batch: 17/156
+Batch: 18/156
+Batch: 19/156
+Batch: 20/156. train loss: 184.2711, train accuracy: 0.5453
+Batch: 1/2. test loss: 205.8544, test accuracy: 0.3990
+Batch: 2/2. test loss: 229.1696, test accuracy: 0.5361
+Batch: 21/156
+Batch: 22/156
+Batch: 23/156
+Batch: 24/156
+Batch: 25/156. train loss: 180.0928, train accuracy: 0.5348
+Batch: 26/156
+Batch: 27/156
+Batch: 28/156
+Batch: 29/156
+Batch: 30/156. train loss: 224.8813, train accuracy: 0.4930
+Batch: 1/2. test loss: 206.3077, test accuracy: 0.4046
+Batch: 2/2. test loss: 181.0003, test accuracy: 0.6689
+Batch: 31/156
+Batch: 32/156
+Batch: 33/156
+Batch: 34/156
+Batch: 35/156. train loss: 186.4715, train accuracy: 0.5299
+Batch: 36/156
+Batch: 37/156
+Batch: 38/156
+Batch: 39/156
+Batch: 40/156. train loss: 218.7672, train accuracy: 0.4330
+Batch: 1/2. test loss: 284.7888, test accuracy: 0.3881
+Batch: 2/2. test loss: 194.0512, test accuracy: 0.9732
+Batch: 41/156
+Batch: 42/156
+Batch: 43/156
+Batch: 44/156
+Batch: 45/156. train loss: 158.5764, train accuracy: 0.6724
+Batch: 46/156
+Batch: 47/156
+Batch: 48/156
+Batch: 49/156
+Batch: 50/156. train loss: 194.3939, train accuracy: 0.5092
+Batch: 1/2. test loss: 185.5531, test accuracy: 0.4225
+Batch: 2/2. test loss: 190.3477, test accuracy: 0.6157
+Batch: 51/156
+Batch: 52/156
+Batch: 53/156
+Batch: 54/156
+Batch: 55/156. train loss: 183.2377, train accuracy: 0.5202
+Batch: 56/156
+Batch: 57/156
+Batch: 58/156
+Batch: 59/156
+Batch: 60/156. train loss: 166.8568, train accuracy: 0.6126
+Batch: 1/2. test loss: 179.4691, test accuracy: 0.4075
+Batch: 2/2. test loss: 218.6613, test accuracy: 0.4418
+Batch: 61/156
+Batch: 62/156
+Batch: 63/156
+Batch: 64/156
+Batch: 65/156. train loss: 162.8019, train accuracy: 0.5985
+Batch: 66/156
+Batch: 67/156
+Batch: 68/156
+Batch: 69/156
+Batch: 70/156. train loss: 178.3685, train accuracy: 0.5455
+Batch: 1/2. test loss: 191.2457, test accuracy: 0.4060
+Batch: 2/2. test loss: 191.6833, test accuracy: 0.5586
+Batch: 71/156
+Batch: 72/156
+Batch: 73/156
+Batch: 74/156
+Batch: 75/156. train loss: 229.4106, train accuracy: 0.4198
+Batch: 76/156
+Batch: 77/156
+Batch: 78/156
+Batch: 79/156
+Backend Qt5Agg is interactive backend. Turning interactive mode on.
